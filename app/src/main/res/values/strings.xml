@@ -1,4 +1,7 @@
 <resources>
     <string name="island_companion">Island Companion</string>
     <string name="tie">TIE</string>
+    <string name="home">Home</string>
+    <string name="fish">Fish</string>
+    <string name="bugs">Bugs</string>
 </resources>

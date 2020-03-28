@@ -10,4 +10,16 @@
         android:label="Blank"
         tools:layout="@layout/fragment_predictions" />
 
+    <fragment android:id="@+id/home"
+        android:label="@string/home"
+        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment" />
+
+    <fragment android:id="@+id/fish"
+        android:label="@string/fish"
+        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment" />
+
+    <fragment android:id="@+id/bugs"
+        android:label="@string/bugs"
+        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment" />
+
 </navigation>
