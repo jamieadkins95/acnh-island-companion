@@ -4,7 +4,7 @@ data class FishEntity(
     val id: String,
     val name: String,
     val location: String,
-    val price: Int,
+    val price: String,
     val size: String,
     val startHour: Int,
     val endHour: Int,

@@ -34,9 +34,6 @@ class FishFragment : DaggerFragment(), FishContract.View {
         binding?.recyclerView?.apply {
             adapter = groupAdapter
             addItemDecoration(FishDecoration())
-            layoutManager = GridLayoutManager(context, groupAdapter.spanCount).apply {
-                spanSizeLookup = groupAdapter.spanSizeLookup
-            }
         }
     }
 

@@ -54,5 +54,6 @@ dependencies {
     implementation Libs.groupie_extensions
     implementation Libs.coil
 
+    implementation project(':data')
     implementation project(':domain')
 }

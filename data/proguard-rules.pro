@@ -1,0 +1,1 @@
+-keep class com.jamieadkins.acnh.data.fish.FirebaseFish { *; }

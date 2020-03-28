@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation Libs.kotlin
+    implementation Libs.dagger
+    kapt Libs.dagger_compiler
+    implementation Libs.timber
+    implementation Libs.rxjava
+
+    api 'com.google.firebase:firebase-firestore-ktx:21.4.1'
+
+    implementation project(':domain')
+
+}

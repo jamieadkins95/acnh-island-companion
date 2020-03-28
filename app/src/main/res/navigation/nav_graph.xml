@@ -2,24 +2,18 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/predictionsFragment">
-
-    <fragment
-        android:id="@+id/predictionsFragment"
-        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment"
-        android:label="Blank"
-        tools:layout="@layout/fragment_fish" />
+    app:startDestination="@id/home">
 
     <fragment android:id="@+id/home"
-        android:label="@string/home"
-        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment" />
+        android:label="@string/island_companion"
+        android:name="com.jamieadkins.acnh.fish.FishFragment" />
 
     <fragment android:id="@+id/fish"
         android:label="@string/fish"
-        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment" />
+        android:name="com.jamieadkins.acnh.fish.FishFragment" />
 
     <fragment android:id="@+id/bugs"
         android:label="@string/bugs"
-        android:name="com.jamieadkins.acnh.predictions.PredictionsFragment" />
+        android:name="com.jamieadkins.acnh.fish.FishFragment" />
 
 </navigation>
