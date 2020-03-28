@@ -1,6 +1,6 @@
 package com.jamieadkins.acnh.fish
 
-import com.jamieadkins.acnh.domain.GetFishUseCase
+import com.jamieadkins.acnh.domain.fish.GetFishUseCase
 import javax.inject.Inject
 
 class FishPresenter @Inject constructor(

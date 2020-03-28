@@ -4,14 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.GridLayoutManager
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.databinding.FragmentFishBinding
-import com.jamieadkins.acnh.domain.FishEntity
+import com.jamieadkins.acnh.domain.fish.FishEntity
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import dagger.android.support.DaggerFragment
-import timber.log.Timber
 import javax.inject.Inject
 
 class FishFragment : DaggerFragment(), FishContract.View {

@@ -4,8 +4,8 @@ import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.QuerySnapshot
-import com.jamieadkins.acnh.domain.FishEntity
-import com.jamieadkins.acnh.domain.FishRepository
+import com.jamieadkins.acnh.domain.fish.FishEntity
+import com.jamieadkins.acnh.domain.fish.FishRepository
 import io.reactivex.Observable
 import timber.log.Timber
 import javax.inject.Inject

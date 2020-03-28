@@ -1,4 +1,4 @@
-package com.jamieadkins.acnh.domain
+package com.jamieadkins.acnh.domain.fish
 
 data class FishEntity(
     val id: String,

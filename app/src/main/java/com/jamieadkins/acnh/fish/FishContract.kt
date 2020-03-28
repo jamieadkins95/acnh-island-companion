@@ -1,6 +1,6 @@
 package com.jamieadkins.acnh.fish
 
-import com.jamieadkins.acnh.domain.FishEntity
+import com.jamieadkins.acnh.domain.fish.FishEntity
 
 interface FishContract {
 

@@ -2,7 +2,7 @@ package com.jamieadkins.acnh.fish
 
 import android.view.View
 import com.jamieadkins.acnh.R
-import com.jamieadkins.acnh.domain.FishEntity
+import com.jamieadkins.acnh.domain.fish.FishEntity
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
 import kotlinx.android.synthetic.main.view_fish.view.*
