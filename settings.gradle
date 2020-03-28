@@ -1,0 +1,3 @@
+rootProject.name='Island Companion'
+include ':app'
+include ':domain'
