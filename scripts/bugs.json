@@ -1,0 +1,1864 @@
+[
+  {
+    "name": "Common butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/Common_Butterfly_HHD_Icon.png/revision/latest?cb=20161105194447",
+    "price": "160",
+    "location": "Flying",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Yellow butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/Yellow_Butterfly_HHD_Icon.png/revision/latest?cb=20161105205712",
+    "price": "160",
+    "location": "Flying",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Tiger butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9b/Tiger_Butterfly_HHD_Icon.png/revision/latest?cb=20161105205248",
+    "price": "240",
+    "location": "Flying",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Peacock butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/Peacock_Butterfly_HHD_Icon.png/revision/latest?cb=20161105203001",
+    "price": "2,500",
+    "location": "Flying by rare flowers",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "southernHemisphereMonths": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Common bluebottle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/Common_Bluebottle_NH_Icon.PNG/revision/latest?cb=20200323171420",
+    "price": "300",
+    "location": "Flying",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Paper kite butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/Paper_Kite_Butterfly_NH_Icon.PNG/revision/latest?cb=20200323171515",
+    "price": "1000",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Great purple emperor",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/Great_Purple_Emperor_NH_Icon.PNG/revision/latest?cb=20200323171457",
+    "price": "3000",
+    "location": "Flying",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Monarch butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d4/Monarch_Butterfly_HHD_Icon.png/revision/latest?cb=20161105202341",
+    "price": "140",
+    "location": "Flying",
+    "startHour": 4,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Emperor butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8d/Emperor_Butterfly_HHD_Icon.png/revision/latest?cb=20161105195220",
+    "price": "4000",
+    "location": "Flying",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ]
+  },
+  {
+    "name": "Agrias butterfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b5/Agrias_Butterfly_HHD.png/revision/latest?cb=20200326025201",
+    "price": "3000",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Rajah Brooke's birdwing",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4b/Rajahbrookes.png/revision/latest?cb=20200325095038",
+    "price": "2500",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Queen Alexandra's birdwing",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/Queenalex.png/revision/latest?cb=20200325094834",
+    "price": "4000",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Moth",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/Moth_HHD_Icon.png/revision/latest?cb=20161105202407",
+    "price": "130",
+    "location": "Flying by light",
+    "startHour": 19,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Atlas moth",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/Atlasmoththumb.png/revision/latest?cb=20200325094524",
+    "price": "3000",
+    "location": "On Trees",
+    "startHour": 19,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Madagascan sunset moth",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Madagascan_Sunset_Moth_NH_Icon.PNG/revision/latest?cb=20200323171503",
+    "price": "2500",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Long locust",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/Long_Locust_HHD_Icon.png/revision/latest?cb=20161105201533",
+    "price": "200",
+    "location": "Hopping",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Migratory locust",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Migratory_Locust_HHD_Icon.png/revision/latest?cb=20161105201959",
+    "price": "600",
+    "location": "Hopping",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Rice grasshopper",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3c/Rice_Grasshopper_HHD_Icon.png/revision/latest?cb=20161105203817",
+    "price": "160",
+    "location": "Hopping",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Grasshopper",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/Grasshopper_HHD_Icon.png/revision/latest?cb=20161105195832",
+    "price": "160",
+    "location": "Hopping",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Cricket",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/Cricket_HHD_Icon.png/revision/latest?cb=20161105194652",
+    "price": "130",
+    "location": "Hopping",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Bell cricket",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/Bell_Cricket_HHD_Icon.png/revision/latest?cb=20161105193526",
+    "price": "430",
+    "location": "Hopping",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "Mantis",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1e/Mantis_HHD_Icon.png/revision/latest?cb=20161105201758",
+    "price": "430",
+    "location": "On Flowers",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Orchid mantis",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Orchid_Mantis_HHD_Icon.png/revision/latest?cb=20161105202812",
+    "price": "2400",
+    "location": "On flowers (White)",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Honeybee",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/Honeybee_HHD_Icon.png/revision/latest?cb=20161105200818",
+    "price": "200",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "southernHemisphereMonths": [
+      1,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Wasp",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ae/Bee_HHD_Icon.png/revision/latest?cb=20161105193523",
+    "price": "2,500",
+    "location": "Shake tree",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Brown Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/Brown_Cicada_HHD.png/revision/latest?cb=20200326030910",
+    "price": "250",
+    "location": "On Trees",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Robust Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d6/Robust_Cicada_HHD.png/revision/latest?cb=20200326030952",
+    "price": "300",
+    "location": "On Trees",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Giant Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/Giant_Cicada_HHD.png/revision/latest?cb=20200326030936",
+    "price": "500",
+    "location": "On Trees",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Walker cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/Walker_Cicada_HHD_Icon.png/revision/latest?cb=20161105205518",
+    "price": "400",
+    "location": "On Trees",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Evening Cicada",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/Evening_Cicada_HHD.png/revision/latest?cb=20200326030923",
+    "price": "550",
+    "location": "On Trees",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Cicada shell",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7e/Cicada_Shell_HHD_Icon.png/revision/latest?cb=20161105194347",
+    "price": "10",
+    "location": "On Trees",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Red dragonfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Red_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105203635",
+    "price": "180",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4
+    ]
+  },
+  {
+    "name": "Darner dragonfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/Darner_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105194729",
+    "price": "230",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Banded dragonfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/Banded_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105193443",
+    "price": "4,500",
+    "location": "Flying",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Damselfly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/Damselfly_NH_Icon.PNG/revision/latest?cb=20200323171426",
+    "price": "?",
+    "location": "Flying",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "name": "Firefly",
+    "image": null,
+    "price": "?",
+    "location": "Flying",
+    "startHour": 19,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      6
+    ],
+    "southernHemisphereMonths": [
+      12
+    ]
+  },
+  {
+    "name": "Mole cricket",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4a/Mole_Cricket_HHD_Icon.png/revision/latest?cb=20161105202337",
+    "price": "500",
+    "location": "Underground",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "name": "Pondskater",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/Pondskater_HHD_Icon.png/revision/latest?cb=20161105203305",
+    "price": "130",
+    "location": "On Ponds and Rivers",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Diving beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Diving_Beetle_HHD_Icon.png/revision/latest?cb=20161105194810",
+    "price": "800",
+    "location": "On Ponds and Rivers",
+    "startHour": 8,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Giant water bug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/Giant_Water_Bug_NH_Icon.PNG/revision/latest?cb=20200323171445",
+    "price": "2000",
+    "location": "On Ponds and Rivers",
+    "startHour": 19,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Stinkbug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/Stinkbug_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140917183505",
+    "price": "120",
+    "location": "On flowers",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Man-faced stink bug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Man-faced_Stink_Bug_NH_Icon.PNG/revision/latest?cb=20200323171509",
+    "price": "1000",
+    "location": "On flowers",
+    "startHour": 19,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Ladybug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Ladybug_HHD_Icon.png/revision/latest?cb=20161105201243",
+    "price": "200",
+    "location": "On flowers",
+    "startHour": 8,
+    "endHour": 17,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "southernHemisphereMonths": [
+      4,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Tiger beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/Tiger_Beetle_HHD_Icon.png/revision/latest?cb=20161105205246",
+    "price": "1,500",
+    "location": "On the ground",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Jewel beetle",
+    "image": null,
+    "price": "2,400",
+    "location": "On Tree Stumps",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Violin beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/Violinbeetle.png/revision/latest?cb=20200325100134",
+    "price": "450",
+    "location": "On a tree stump",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Citrus Long-horned Beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Citrus_Long-horned_Beetle_NH_icon.png/revision/latest?cb=20200323094531",
+    "price": "350",
+    "location": "On a tree stump",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Rosalia batesi beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/Rosalia_Batesi_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171521",
+    "price": "3000",
+    "location": "On a tree stump",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Blue weevil beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/Blue_Weevil_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171413",
+    "price": "?",
+    "location": "?",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Dung beetle",
+    "image": null,
+    "price": "?",
+    "location": "On ground (rolling snowballs)",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      12
+    ],
+    "southernHemisphereMonths": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "name": "Earth-boring Dung Beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/51/Earth-Boring_Dung_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171439",
+    "price": "300",
+    "location": "On Ground",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Scarab beetle",
+    "image": null,
+    "price": "?",
+    "location": "On Tree",
+    "startHour": 13,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Drone beetle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/Drone_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171433",
+    "price": "200",
+    "location": "On Tree",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      12
+    ]
+  },
+  {
+    "name": "Goliath beetle",
+    "image": null,
+    "price": "8000",
+    "location": "On Tree (Palm)",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Saw stag",
+    "image": null,
+    "price": "?",
+    "location": "On Trees",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Miyama stag",
+    "image": null,
+    "price": "1000",
+    "location": "On Trees",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Giant stag",
+    "image": null,
+    "price": "10000",
+    "location": "On Trees",
+    "startHour": 13,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Rainbow stag",
+    "image": null,
+    "price": "6000",
+    "location": "On Trees",
+    "startHour": 19,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Cyclommatus stag",
+    "image": null,
+    "price": "8000",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Golden stag",
+    "image": null,
+    "price": "?",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Giraffe stag",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/Giraffe_Stag_NH_Icon.PNG/revision/latest?cb=20200323171451",
+    "price": "?",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Horned dynastid",
+    "image": null,
+    "price": "1350",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Horned atlas",
+    "image": null,
+    "price": "8000",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Horned elephant",
+    "image": null,
+    "price": "8000",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Horned hercules",
+    "image": null,
+    "price": "?",
+    "location": "On Trees",
+    "startHour": 17,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Walking stick",
+    "image": null,
+    "price": "?",
+    "location": "On Trees",
+    "startHour": 4,
+    "endHour": 19,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Walking leaf",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/Walking_Leaf_HHD_Icon.png/revision/latest?cb=20161105205520",
+    "price": "600",
+    "location": "Under Trees Disguised as Leafs",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Bagworm",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/02/Bagworm_HHD_Icon.png/revision/latest?cb=20161105192557",
+    "price": "600",
+    "location": "Shaking tree",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Ant",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/Ant_HHD_Icon.png/revision/latest?cb=20161105192047",
+    "price": "?",
+    "location": "On rotten food",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Hermit crab",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/Hermit_Crab_HHD_Icon.png/revision/latest?cb=20161105200739",
+    "price": "1000",
+    "location": "Beach disguised as shells",
+    "startHour": 19,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Wharf roach",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/Wharf_Roach_HHD_Icon.png/revision/latest?cb=20161105205618",
+    "price": "200",
+    "location": "On beach rocks",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Fly",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a2/NH-Fly.png/revision/latest?cb=20200327131214",
+    "price": "60",
+    "location": "On trash items",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Mosquito",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ad/NH-Mosquito.png/revision/latest?cb=20200327131940",
+    "price": "130",
+    "location": "Flying",
+    "startHour": 17,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Flea",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Flea.png/revision/latest?cb=20200327131921",
+    "price": "?",
+    "location": "Villager's Heads",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Snail",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Snail.png/revision/latest?cb=20200327132010",
+    "price": "250",
+    "location": "On rocks (Rain)",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Pill bug",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Pill-Bug.png/revision/latest?cb=20200327131954",
+    "price": "250",
+    "location": "Hit a rock",
+    "startHour": 13,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Centipede",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Centipede.png/revision/latest?cb=20200327131903",
+    "price": "300",
+    "location": "Hit a rock",
+    "startHour": 16,
+    "endHour": 13,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Spider",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Spider.png/revision/latest?cb=20200327132028",
+    "price": "480",
+    "location": "Shaking tree",
+    "startHour": 19,
+    "endHour": 8,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Tarantula",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/aa/NH-Tarantula.png/revision/latest?cb=20200327130827",
+    "price": "8000",
+    "location": "On the ground",
+    "startHour": 19,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Scorpion.png/revision/latest?cb=20200327125731",
+    "price": "8000",
+    "location": "On the ground",
+    "startHour": 19,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  }
+]

@@ -1,0 +1,2096 @@
+[
+  {
+    "name": "Bitterling",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Bitterling_HHD_Icon.png",
+    "price": "900",
+    "location": "River",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Pale chub",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Pale_Chub_HHD_Icon.png",
+    "price": "200",
+    "location": "River",
+    "size": "1",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Crucian carp",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Crucian_Carp_HHD_Icon.png",
+    "price": "160",
+    "location": "River",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Dace",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Dace_HHD_Icon.png",
+    "price": "240",
+    "location": "River",
+    "size": "3",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Carp",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Carp_HHD_Icon.png",
+    "price": "300",
+    "location": "Pond",
+    "size": "4",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Koi",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Koi_HHD_Icon.png",
+    "price": "4,000",
+    "location": "Pond",
+    "size": "4",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Goldfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Goldfish_HHD_Icon.png",
+    "price": "1,300",
+    "location": "Pond",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Pop-eyed goldfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Popeyed_Goldfish_HHD_Icon.png",
+    "price": "1,300",
+    "location": "Pond",
+    "size": "1",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Ranchu goldfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Ranchu_Goldfish_NH_Icon.png",
+    "price": "4,500",
+    "location": "Pond",
+    "size": "2",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Killifish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Killifish_HHD_Icon.png",
+    "price": "300",
+    "location": "Pond",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Crawfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Crawfish_HHD_Icon.png",
+    "price": "200",
+    "location": "Pond",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Soft-shelled turtle",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Soft-Shelled_Turtle_HHD_Icon.png",
+    "price": "3,750",
+    "location": "River",
+    "size": "4",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Snapping turtle",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Snapping_Turtle_NH_Icon.png",
+    "price": "5,000",
+    "location": "River",
+    "size": "5",
+    "startHour": 21,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Tadpole",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Tadpole_HHD_Icon.png",
+    "price": "100",
+    "location": "Pond",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "southernHemisphereMonths": [
+      1,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Frog",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Frog_HHD_Icon.png",
+    "price": "120",
+    "location": "Pond",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Freshwater goby",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Freshwater_Goby_HHD_Icon.png",
+    "price": "400",
+    "location": "River",
+    "size": "2",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Loach",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Loach_HHD_Icon.png",
+    "price": "400",
+    "location": "River",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5
+    ],
+    "southernHemisphereMonths": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "name": "Catfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Catfish_HHD_Icon.png",
+    "price": "800",
+    "location": "Pond",
+    "size": "4",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Giant snakehead",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Giant_Snakehead_HHD_Icon.png",
+    "price": "5,500",
+    "location": "Pond",
+    "size": "5",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      12
+    ]
+  },
+  {
+    "name": "Bluegill",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Bluegill_HHD_Icon.png",
+    "price": "180",
+    "location": "River",
+    "size": "2",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Yellow perch",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Yellow_Perch_HHD_Icon.png",
+    "price": "300",
+    "location": "River",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Black bass",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Black_Bass_HHD_Icon.png",
+    "price": "400",
+    "location": "River",
+    "size": "4",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Tilapia",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Tilapia_NH_Icon.png",
+    "price": "800",
+    "location": "River",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      12
+    ]
+  },
+  {
+    "name": "Pike",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Pike_HHD_Icon.png",
+    "price": "1,800",
+    "location": "River",
+    "size": "5",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "name": "Pond smelt",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Pond_Smelt_HHD_Icon.png",
+    "price": "500",
+    "location": "River",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      12
+    ],
+    "southernHemisphereMonths": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "name": "Sweetfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Sweetfish_HHD_Icon.png",
+    "price": "900",
+    "location": "River",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Cherry salmon",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Cherry_Salmon_HHD_Icon.png",
+    "price": "1,000",
+    "location": "River (Clifftop)  Pond",
+    "size": "3",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Char",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Char_HHD_Icon.png",
+    "price": "3,800",
+    "location": "River (Clifftop)  Pond",
+    "size": "3",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Golden trout",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Golden_Trout_NH_Icon.png",
+    "price": "15,000",
+    "location": "River (Clifftop)",
+    "size": "3",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "name": "Stringfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Stringfish_HHD_Icon.png",
+    "price": "15,000",
+    "location": "River (Clifftop)",
+    "size": "5",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ],
+    "southernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Salmon",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Salmon_HHD_Icon.png",
+    "price": "700",
+    "location": "River (Mouth)",
+    "size": "4",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      9
+    ],
+    "southernHemisphereMonths": [
+      3
+    ]
+  },
+  {
+    "name": "King salmon",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/King_Salmon_HHD_Icon.png",
+    "price": "1,800",
+    "location": "River (Mouth)",
+    "size": "6",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      9
+    ],
+    "southernHemisphereMonths": [
+      3
+    ]
+  },
+  {
+    "name": "Mitten crab",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Mitten_Crab_HHD_Icon.png",
+    "price": "2,000",
+    "location": "River",
+    "size": "2",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Guppy",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Guppy_HHD_Icon.png",
+    "price": "1,300",
+    "location": "River",
+    "size": "1",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Nibble fish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Nibble_Fish_HHD_Icon.png",
+    "price": "1,500",
+    "location": "River",
+    "size": "2",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Angelfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Angelfish_HHD_Icon.png",
+    "price": "3,000",
+    "location": "River",
+    "size": "2",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Betta",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Betta_NH_Icon.png",
+    "price": "2,500",
+    "location": "River",
+    "size": "2",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Neon tetra",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Neon_Tetra_HHD_Icon.png",
+    "price": "500",
+    "location": "River",
+    "size": "1",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Rainbowfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Rainbowfish_NH_Icon.png",
+    "price": "800",
+    "location": "River",
+    "size": "1",
+    "startHour": 9,
+    "endHour": 16,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Piranha",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Piranha_HHD_Icon.png",
+    "price": "2,500",
+    "location": "River",
+    "size": "2",
+    "startHour": 9,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Arowana",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Arowana_HHD_Icon.png",
+    "price": "10,000",
+    "location": "River",
+    "size": "4",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Dorado",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Dorado_HHD_Icon.png",
+    "price": "15,000",
+    "location": "River",
+    "size": "5",
+    "startHour": 4,
+    "endHour": 21,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Gar",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Gar_HHD_Icon.png",
+    "price": "6,000",
+    "location": "Pond",
+    "size": "6",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Arapaima",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Arapaima_HHD_Icon.png",
+    "price": "10,000",
+    "location": "River",
+    "size": "6",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Saddled bichir",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Saddled_Bichir_HHD_Icon.png",
+    "price": "4,000",
+    "location": "River",
+    "size": "4",
+    "startHour": 21,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Sturgeon",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Sturgeon_HHD_Icon.png",
+    "price": "10,000",
+    "location": "River (Mouth)",
+    "size": "6",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Sea butterfly",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Sea_Butterfly_HHD_Icon.png",
+    "price": "1,000",
+    "location": "Sea",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ],
+    "southernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Sea horse",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Seahorse_(New_Leaf_icon).PNG.png",
+    "price": "1,100",
+    "location": "Sea",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Clown fish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Clownfish_HHD_Icon.png",
+    "price": "650",
+    "location": "Sea",
+    "size": "1",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Surgeonfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Surgeonfish_HHD_Icon.png",
+    "price": "1,000",
+    "location": "Sea",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Butterfly fish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Butterfly_Fish_(New_Leaf_icon).PNG.png",
+    "price": "1,000",
+    "location": "Sea",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Napoleonfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Napoleonfish_HHD_Icon.png",
+    "price": "10,000",
+    "location": "Sea",
+    "size": "6",
+    "startHour": 4,
+    "endHour": 21,
+    "northernHemisphereMonths": [
+      7,
+      8
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Zebra turkeyfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Zebra_Turkeyfish_HHD_Icon.png",
+    "price": "500",
+    "location": "Sea",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Blowfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Blowfish_HHD_Icon.png",
+    "price": "5000",
+    "location": "Sea",
+    "size": "3",
+    "startHour": 18,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "name": "Puffer fish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Puffer_Fish_HHD_Icon.png",
+    "price": "250",
+    "location": "Sea",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Anchovy",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Anchovy_NH_Icon.png",
+    "price": "200",
+    "location": "Sea",
+    "size": "2",
+    "startHour": 4,
+    "endHour": 21,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Horse mackerel",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Horse_Mackerel_HHD_Icon.png",
+    "price": "150",
+    "location": "Sea",
+    "size": "2",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Barred knifejaw",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Barred_Knifejaw_HHD_Icon.png",
+    "price": "5,000",
+    "location": "Sea",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Sea bass",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Sea_Bass_HHD_Icon.png",
+    "price": "400",
+    "location": "Sea",
+    "size": "5",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Red snapper",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Red_Snapper_HHD_Icon.png",
+    "price": "3,000",
+    "location": "Sea",
+    "size": "4",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Dab",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Dab_HHD_Icon.png",
+    "price": "300",
+    "location": "Sea",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "Olive flounder",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Olive_Flounder_HHD_Icon.png",
+    "price": "800",
+    "location": "Sea",
+    "size": "5",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Squid",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Squid_HHD_Icon.png",
+    "price": "500",
+    "location": "Sea",
+    "size": "3",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Moray eel",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Moray_Eel_HHD_Icon.png",
+    "price": "2,000",
+    "location": "Sea",
+    "size": "Narrow",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "Ribbon eel",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Ribbon_Eel_HHD_Icon.png",
+    "price": "600",
+    "location": "Sea",
+    "size": "Narrow",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      12
+    ]
+  },
+  {
+    "name": "Tuna",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Tuna_HHD_Icon.png",
+    "price": "7,000",
+    "location": "Pier",
+    "size": "6",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "Blue marlin",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Blue_Marlin_HHD_Icon.png",
+    "price": "10,000",
+    "location": "Pier",
+    "size": "6",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "name": "Giant trevally",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Giant_Trevally_HHD_Icon.png",
+    "price": "4,500",
+    "location": "Pier",
+    "size": "5",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Mahi-mahi",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Mahi-Mahi_NH_Icon.png",
+    "price": "6,000",
+    "location": "Pier",
+    "size": "5",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Ocean sunfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Ocean_Sunfish_HHD_Icon.png",
+    "price": "4,000",
+    "location": "Sea",
+    "size": "6 (Fin)",
+    "startHour": 4,
+    "endHour": 21,
+    "northernHemisphereMonths": [
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Ray",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Ray_HHD_Icon.png",
+    "price": "3,000",
+    "location": "Sea",
+    "size": "5",
+    "startHour": 4,
+    "endHour": 21,
+    "northernHemisphereMonths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "southernHemisphereMonths": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Saw shark",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Saw_Shark_HHD_Icon.png",
+    "price": "12,000",
+    "location": "Sea",
+    "size": "6 (Fin)",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Hammerhead shark",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Hammerhead_Shark_HHD_Icon.png",
+    "price": "8,000",
+    "location": "Sea",
+    "size": "6 (Fin)",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Great white shark",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Shark_HHD_Icon.png",
+    "price": "15,000",
+    "location": "Sea",
+    "size": "6 (Fin)",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Whale shark",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Whale_Shark_HHD_Icon.png",
+    "price": "13,000",
+    "location": "Sea",
+    "size": "6 (Fin)",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Suckerfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Suckerfish_NH_Icon.png",
+    "price": "1,500",
+    "location": "Sea",
+    "size": "? (Fin)",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      12
+    ]
+  },
+  {
+    "name": "Football fish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Football_Fish_HHD_Icon.png",
+    "price": "2,500",
+    "location": "Sea",
+    "size": "4",
+    "startHour": 16,
+    "endHour": 9,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "name": "Oarfish",
+    "image": "./Fish (New Horizons) _ Animal Crossing Wiki _ Fandom_files/Oarfish_HHD_Icon.png",
+    "price": "9,000",
+    "location": "Sea",
+    "size": "6",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      12
+    ],
+    "southernHemisphereMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "name": "Barreleye",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e0/Barreleye_NH_Icon.png/revision/latest?cb=20200323203013",
+    "price": "15,000",
+    "location": "Sea",
+    "size": "2",
+    "startHour": 21,
+    "endHour": 4,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "name": "Coelacanth",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/78/Coelacanth_HHD_Icon.png/revision/latest?cb=20161105194437",
+    "price": "15,000",
+    "location": "Sea (Raining)",
+    "size": "6",
+    "startHour": 0,
+    "endHour": 24,
+    "northernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "southernHemisphereMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+]
