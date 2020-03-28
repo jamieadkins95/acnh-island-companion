@@ -8,7 +8,7 @@
         android:id="@+id/predictionsFragment"
         android:name="com.jamieadkins.acnh.predictions.PredictionsFragment"
         android:label="Blank"
-        tools:layout="@layout/fragment_predictions" />
+        tools:layout="@layout/fragment_fish" />
 
     <fragment android:id="@+id/home"
         android:label="@string/home"
