@@ -43,11 +43,11 @@ class FishFragment : DaggerFragment(), FishContract.View {
     }
 
     override fun showLoadingIndicator() {
-
+        binding?.loadingIndicator?.visibility = View.VISIBLE
     }
 
     override fun hideLoadingIndicator() {
-
+        binding?.loadingIndicator?.visibility = View.GONE
     }
 
     override fun showFish(fish: List<FishEntity>) {

@@ -43,11 +43,11 @@ class BugsFragment : DaggerFragment(), BugContract.View {
     }
 
     override fun showLoadingIndicator() {
-
+        binding?.loadingIndicator?.visibility = View.VISIBLE
     }
 
     override fun hideLoadingIndicator() {
-
+        binding?.loadingIndicator?.visibility = View.GONE
     }
 
     override fun showBugs(bugs: List<BugEntity>) {
