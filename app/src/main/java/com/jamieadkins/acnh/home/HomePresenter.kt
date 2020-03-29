@@ -1,24 +1,24 @@
-package com.jamieadkins.acnh.fish
+package com.jamieadkins.acnh.home
 
-import com.jamieadkins.acnh.domain.fish.GetFishUseCase
+import com.jamieadkins.acnh.domain.GetCrittersAvailableNowUseCase
 import com.jamieadkins.acnh.extensions.addToComposite
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 
-class FishPresenter @Inject constructor(
-    private val getFishUseCase: GetFishUseCase
-) : FishContract.Presenter {
+class HomePresenter @Inject constructor(
+    private val getCrittersAvailableNowUseCase: GetCrittersAvailableNowUseCase
+) : HomeContract.Presenter {
 
-    private var view: FishContract.View? = null
+    private var view: HomeContract.View? = null
     private val compositeDisposable = CompositeDisposable()
 
-    override fun onAttach(newView: FishContract.View) {
+    override fun onAttach(newView: HomeContract.View) {
         view = newView
 
-        getFishUseCase.getFish()
+        getCrittersAvailableNowUseCase.getCrittersAvailableNow()
             .doOnSubscribe { view?.showLoadingIndicator() }
             .doOnNext { view?.hideLoadingIndicator() }
-            .subscribe { view?.showFish(it) }
+            .subscribe { view?.showCrittersAvailableNow(it) }
             .addToComposite(compositeDisposable)
     }
 

@@ -9,7 +9,8 @@ import dagger.android.support.AndroidSupportInjectionModule
 @Component(
     modules = [
         AndroidSupportInjectionModule::class,
-        FragmentProvider::class
+        FragmentProvider::class,
+        SchedulerProviderModule::class
     ],
     dependencies = [CoreComponent::class]
 )

@@ -7,6 +7,8 @@ dependencies {
     implementation Libs.rxjava
     implementation Libs.dagger
     kapt Libs.dagger_compiler
+
+    api Libs.threetenbp
 }
 
 sourceCompatibility = "1.8"

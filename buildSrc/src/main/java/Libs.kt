@@ -37,7 +37,7 @@ object Libs {
     const val dagger_compiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
     const val coil = "io.coil-kt:coil:0.9.5"
 
-    const val joda = "joda-time:joda-time:${Versions.joda}"
+    const val threetenbp = "org.threeten:threetenbp:${Versions.threetenbp}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
     const val curl = "com.github.mrmike:ok2curl:${Versions.curl}"
     const val groupie = "com.xwray:groupie:${Versions.groupie}"

@@ -3,7 +3,7 @@ object Versions {
     const val min_sdk = 21
     const val target_sdk = 29
 
-    const val gradle_plugin = "3.6.1"
+    const val gradle_plugin = "4.0.0-beta03"
     const val kotlin = "1.3.61"
 
     const val app_version_name = "1.0.0"
@@ -26,7 +26,7 @@ object Versions {
     const val dagger = "2.26"
     const val glide = "4.9.0"
 
-    const val joda = "2.9.9"
+    const val threetenbp = "1.4.2"
     const val groupie = "2.7.2"
 
     // Logging

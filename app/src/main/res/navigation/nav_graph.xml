@@ -6,7 +6,7 @@
 
     <fragment android:id="@+id/home"
         android:label="@string/island_companion"
-        android:name="com.jamieadkins.acnh.fish.FishFragment" />
+        android:name="com.jamieadkins.acnh.home.HomeFragment" />
 
     <fragment android:id="@+id/fish"
         android:label="@string/fish"
