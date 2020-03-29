@@ -37,7 +37,7 @@ class BugRepositoryImpl @Inject constructor(
                             result?.price ?: "",
                             result?.startHour ?: 0,
                             result?.endHour ?: 24,
-                            "All Day",
+                            result?.timeRange ?: "All Day",
                             result?.northernHemisphereMonths ?: emptyList()
                         )
                     } ?: emptyList()

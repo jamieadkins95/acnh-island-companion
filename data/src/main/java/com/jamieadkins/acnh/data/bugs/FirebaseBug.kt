@@ -7,6 +7,7 @@ class FirebaseBug {
     var location: String? = null
     var startHour: Int? = null
     var endHour: Int? = null
+    var timeRange: String? = null
     var northernHemisphereMonths: List<Int>? = null
     var southernHemisphereMonths: List<Int>? = null
 }
