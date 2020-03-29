@@ -1,6 +1,7 @@
 # Built application files
 *.apk
 *.ap_
+*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -54,6 +55,7 @@ com_crashlytics_export_strings.xml
 # App Bundles
 *.apks
 *.pb
+*output.json
 
 .DS_Store
 

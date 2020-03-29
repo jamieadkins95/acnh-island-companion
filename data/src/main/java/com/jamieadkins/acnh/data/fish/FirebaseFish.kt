@@ -1,5 +1,8 @@
 package com.jamieadkins.acnh.data.fish
 
+import androidx.annotation.Keep
+
+@Keep
 class FirebaseFish {
     var id: String? = null
     var name: String? = null

@@ -1,5 +1,8 @@
 package com.jamieadkins.acnh.data.bugs
 
+import androidx.annotation.Keep
+
+@Keep
 class FirebaseBug {
     var id: String? = null
     var name: String? = null
