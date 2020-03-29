@@ -4,6 +4,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/Common_Butterfly_HHD_Icon.png/revision/latest?cb=20161105194447",
     "price": "160",
     "location": "Flying",
+    "timeRange": "4 AM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -36,6 +37,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/de/Yellow_Butterfly_HHD_Icon.png/revision/latest?cb=20161105205712",
     "price": "160",
     "location": "Flying",
+    "timeRange": "4 AM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -60,6 +62,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9b/Tiger_Butterfly_HHD_Icon.png/revision/latest?cb=20161105205248",
     "price": "240",
     "location": "Flying",
+    "timeRange": "4 AM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -84,8 +87,9 @@
   {
     "name": "Peacock butterfly",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/Peacock_Butterfly_HHD_Icon.png/revision/latest?cb=20161105203001",
-    "price": "2,500",
+    "price": "2500",
     "location": "Flying by rare flowers",
+    "timeRange": "4 AM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -106,6 +110,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bd/Common_Bluebottle_NH_Icon.PNG/revision/latest?cb=20200323171420",
     "price": "300",
     "location": "Flying",
+    "timeRange": "4 AM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -128,6 +133,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/Paper_Kite_Butterfly_NH_Icon.PNG/revision/latest?cb=20200323171515",
     "price": "1000",
     "location": "Flying",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -164,6 +170,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c2/Great_Purple_Emperor_NH_Icon.PNG/revision/latest?cb=20200323171457",
     "price": "3000",
     "location": "Flying",
+    "timeRange": "4 AM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -184,6 +191,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d4/Monarch_Butterfly_HHD_Icon.png/revision/latest?cb=20161105202341",
     "price": "140",
     "location": "Flying",
+    "timeRange": "4 AM - 5 PM",
     "startHour": 4,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -202,6 +210,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8d/Emperor_Butterfly_HHD_Icon.png/revision/latest?cb=20161105195220",
     "price": "4000",
     "location": "Flying",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -230,6 +239,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b5/Agrias_Butterfly_HHD.png/revision/latest?cb=20200326025201",
     "price": "3000",
     "location": "Flying",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -254,6 +264,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4b/Rajahbrookes.png/revision/latest?cb=20200325095038",
     "price": "2500",
     "location": "Flying",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -284,6 +295,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/90/Queenalex.png/revision/latest?cb=20200325094834",
     "price": "4000",
     "location": "Flying",
+    "timeRange": "8 AM - 4 PM",
     "startHour": 8,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -306,6 +318,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/Moth_HHD_Icon.png/revision/latest?cb=20161105202407",
     "price": "130",
     "location": "Flying by light",
+    "timeRange": "7 PM - 4 AM",
     "startHour": 19,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -342,6 +355,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/Atlasmoththumb.png/revision/latest?cb=20200325094524",
     "price": "3000",
     "location": "On Trees",
+    "timeRange": "7 PM - 4 AM",
     "startHour": 19,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -366,6 +380,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Madagascan_Sunset_Moth_NH_Icon.PNG/revision/latest?cb=20200323171503",
     "price": "2500",
     "location": "Flying",
+    "timeRange": "8 AM - 4 PM",
     "startHour": 8,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -390,6 +405,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/05/Long_Locust_HHD_Icon.png/revision/latest?cb=20161105201533",
     "price": "200",
     "location": "Hopping",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -418,6 +434,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Migratory_Locust_HHD_Icon.png/revision/latest?cb=20161105201959",
     "price": "600",
     "location": "Hopping",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -438,6 +455,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3c/Rice_Grasshopper_HHD_Icon.png/revision/latest?cb=20161105203817",
     "price": "160",
     "location": "Hopping",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -458,6 +476,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/47/Grasshopper_HHD_Icon.png/revision/latest?cb=20161105195832",
     "price": "160",
     "location": "Hopping",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -476,6 +495,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/Cricket_HHD_Icon.png/revision/latest?cb=20161105194652",
     "price": "130",
     "location": "Hopping",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -494,6 +514,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/Bell_Cricket_HHD_Icon.png/revision/latest?cb=20161105193526",
     "price": "430",
     "location": "Hopping",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -510,6 +531,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1e/Mantis_HHD_Icon.png/revision/latest?cb=20161105201758",
     "price": "430",
     "location": "On Flowers",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -540,6 +562,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Orchid_Mantis_HHD_Icon.png/revision/latest?cb=20161105202812",
     "price": "2400",
     "location": "On flowers (White)",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -570,6 +593,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/Honeybee_HHD_Icon.png/revision/latest?cb=20161105200818",
     "price": "200",
     "location": "Flying",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -590,8 +614,9 @@
   {
     "name": "Wasp",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ae/Bee_HHD_Icon.png/revision/latest?cb=20161105193523",
-    "price": "2,500",
+    "price": "2500",
     "location": "Shake tree",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -628,6 +653,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/21/Brown_Cicada_HHD.png/revision/latest?cb=20200326030910",
     "price": "250",
     "location": "On Trees",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -644,6 +670,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d6/Robust_Cicada_HHD.png/revision/latest?cb=20200326030952",
     "price": "300",
     "location": "On Trees",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -660,6 +687,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/35/Giant_Cicada_HHD.png/revision/latest?cb=20200326030936",
     "price": "500",
     "location": "On Trees",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -676,6 +704,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d7/Walker_Cicada_HHD_Icon.png/revision/latest?cb=20161105205518",
     "price": "400",
     "location": "On Trees",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -692,6 +721,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/Evening_Cicada_HHD.png/revision/latest?cb=20200326030923",
     "price": "550",
     "location": "On Trees",
+    "timeRange": "4 AM - 8 AM & 4 PM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -708,6 +738,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7e/Cicada_Shell_HHD_Icon.png/revision/latest?cb=20161105194347",
     "price": "10",
     "location": "On Trees",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -724,6 +755,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Red_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105203635",
     "price": "180",
     "location": "Flying",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -740,6 +772,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/Darner_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105194729",
     "price": "230",
     "location": "Flying",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -764,8 +797,9 @@
   {
     "name": "Banded dragonfly",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6e/Banded_Dragonfly_HHD_Icon.png/revision/latest?cb=20161105193443",
-    "price": "4,500",
+    "price": "4500",
     "location": "Flying",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -790,6 +824,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/Damselfly_NH_Icon.PNG/revision/latest?cb=20200323171426",
     "price": "?",
     "location": "Flying",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -810,6 +845,7 @@
     "image": null,
     "price": "?",
     "location": "Flying",
+    "timeRange": "7 PM - 4 AM",
     "startHour": 19,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -824,6 +860,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4a/Mole_Cricket_HHD_Icon.png/revision/latest?cb=20161105202337",
     "price": "500",
     "location": "Underground",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -850,6 +887,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/Pondskater_HHD_Icon.png/revision/latest?cb=20161105203305",
     "price": "130",
     "location": "On Ponds and Rivers",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -872,6 +910,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/64/Diving_Beetle_HHD_Icon.png/revision/latest?cb=20161105194810",
     "price": "800",
     "location": "On Ponds and Rivers",
+    "timeRange": "8 AM - 7 PM",
     "startHour": 8,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -894,6 +933,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b2/Giant_Water_Bug_NH_Icon.PNG/revision/latest?cb=20200323171445",
     "price": "2000",
     "location": "On Ponds and Rivers",
+    "timeRange": "7 PM - 8 AM",
     "startHour": 19,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -918,6 +958,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f3/Stinkbug_%28New_Leaf_icon%29.PNG/revision/latest?cb=20140917183505",
     "price": "120",
     "location": "On flowers",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -946,6 +987,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c0/Man-faced_Stink_Bug_NH_Icon.PNG/revision/latest?cb=20200323171509",
     "price": "1000",
     "location": "On flowers",
+    "timeRange": "7 PM - 8 AM",
     "startHour": 19,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -974,6 +1016,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Ladybug_HHD_Icon.png/revision/latest?cb=20161105201243",
     "price": "200",
     "location": "On flowers",
+    "timeRange": "8 AM - 5 PM",
     "startHour": 8,
     "endHour": 17,
     "northernHemisphereMonths": [
@@ -994,8 +1037,9 @@
   {
     "name": "Tiger beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/Tiger_Beetle_HHD_Icon.png/revision/latest?cb=20161105205246",
-    "price": "1,500",
+    "price": "1500",
     "location": "On the ground",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1024,8 +1068,9 @@
   {
     "name": "Jewel beetle",
     "image": null,
-    "price": "2,400",
+    "price": "2400",
     "location": "On Tree Stumps",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1048,6 +1093,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/Violinbeetle.png/revision/latest?cb=20200325100134",
     "price": "450",
     "location": "On a tree stump",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1067,9 +1113,10 @@
   },
   {
     "name": "Citrus Long-horned Beetle",
-    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Citrus_Long-horned_Beetle_NH_icon.png/revision/latest?cb=20200323094531",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/Citrus_Long-horned_Beetle_NH.png/revision/latest?cb=20200329033411",
     "price": "350",
     "location": "On a tree stump",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1106,6 +1153,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/Rosalia_Batesi_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171521",
     "price": "3000",
     "location": "On a tree stump",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1127,7 +1175,8 @@
     "name": "Blue weevil beetle",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/Blue_Weevil_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171413",
     "price": "?",
-    "location": "?",
+    "location": "On Tree (coconut?)",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1144,6 +1193,7 @@
     "image": null,
     "price": "?",
     "location": "On ground (rolling snowballs)",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1162,6 +1212,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/51/Earth-Boring_Dung_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171439",
     "price": "300",
     "location": "On Ground",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1180,6 +1231,7 @@
     "image": null,
     "price": "?",
     "location": "On Tree",
+    "timeRange": "11 PM - 8 AM",
     "startHour": 13,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1196,6 +1248,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/Drone_Beetle_NH_Icon.PNG/revision/latest?cb=20200323171433",
     "price": "200",
     "location": "On Tree",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1214,6 +1267,7 @@
     "image": null,
     "price": "8000",
     "location": "On Tree (Palm)",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1234,6 +1288,7 @@
     "image": null,
     "price": "?",
     "location": "On Trees",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1250,6 +1305,7 @@
     "image": null,
     "price": "1000",
     "location": "On Trees",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1266,6 +1322,7 @@
     "image": null,
     "price": "10000",
     "location": "On Trees",
+    "timeRange": "11 PM - 8 AM",
     "startHour": 13,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1282,6 +1339,7 @@
     "image": null,
     "price": "6000",
     "location": "On Trees",
+    "timeRange": "7 PM - 8 AM",
     "startHour": 19,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1302,6 +1360,7 @@
     "image": null,
     "price": "8000",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1318,6 +1377,7 @@
     "image": null,
     "price": "?",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1334,6 +1394,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/Giraffe_Stag_NH_Icon.PNG/revision/latest?cb=20200323171451",
     "price": "?",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1350,6 +1411,7 @@
     "image": null,
     "price": "1350",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1366,6 +1428,7 @@
     "image": null,
     "price": "8000",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1382,6 +1445,7 @@
     "image": null,
     "price": "8000",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1398,6 +1462,7 @@
     "image": null,
     "price": "?",
     "location": "On Trees",
+    "timeRange": "5 PM - 8 AM",
     "startHour": 17,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1414,6 +1479,7 @@
     "image": null,
     "price": "?",
     "location": "On Trees",
+    "timeRange": "4 AM - 8 AM & 5 PM - 7 PM",
     "startHour": 4,
     "endHour": 19,
     "northernHemisphereMonths": [
@@ -1436,6 +1502,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/Walking_Leaf_HHD_Icon.png/revision/latest?cb=20161105205520",
     "price": "600",
     "location": "Under Trees Disguised as Leafs",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1454,6 +1521,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/02/Bagworm_HHD_Icon.png/revision/latest?cb=20161105192557",
     "price": "600",
     "location": "Shaking tree",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1488,8 +1556,9 @@
   {
     "name": "Ant",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/12/Ant_HHD_Icon.png/revision/latest?cb=20161105192047",
-    "price": "?",
+    "price": "80",
     "location": "On rotten food",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1526,6 +1595,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/Hermit_Crab_HHD_Icon.png/revision/latest?cb=20161105200739",
     "price": "1000",
     "location": "Beach disguised as shells",
+    "timeRange": "7 PM - 8 AM",
     "startHour": 19,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1562,6 +1632,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7d/Wharf_Roach_HHD_Icon.png/revision/latest?cb=20161105205618",
     "price": "200",
     "location": "On beach rocks",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1598,6 +1669,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a2/NH-Fly.png/revision/latest?cb=20200327131214",
     "price": "60",
     "location": "On trash items",
+    "timeRange": "All Day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1634,6 +1706,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ad/NH-Mosquito.png/revision/latest?cb=20200327131940",
     "price": "130",
     "location": "Flying",
+    "timeRange": "5 PM - 4 AM",
     "startHour": 17,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -1652,8 +1725,9 @@
   {
     "name": "Flea",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Flea.png/revision/latest?cb=20200327131921",
-    "price": "?",
+    "price": "70?",
     "location": "Villager's Heads",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1682,6 +1756,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Snail.png/revision/latest?cb=20200327132010",
     "price": "250",
     "location": "On rocks (Rain)",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1718,6 +1793,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Pill-Bug.png/revision/latest?cb=20200327131954",
     "price": "250",
     "location": "Hit a rock",
+    "timeRange": "11 PM - 4 PM",
     "startHour": 13,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -1750,6 +1826,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Centipede.png/revision/latest?cb=20200327131903",
     "price": "300",
     "location": "Hit a rock",
+    "timeRange": "4 PM - 11 PM",
     "startHour": 16,
     "endHour": 13,
     "northernHemisphereMonths": [
@@ -1782,6 +1859,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/16/NH-Spider.png/revision/latest?cb=20200327132028",
     "price": "480",
     "location": "Shaking tree",
+    "timeRange": "7 PM - 8 AM",
     "startHour": 19,
     "endHour": 8,
     "northernHemisphereMonths": [
@@ -1818,6 +1896,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/aa/NH-Tarantula.png/revision/latest?cb=20200327130827",
     "price": "8000",
     "location": "On the ground",
+    "timeRange": "7 PM - 4 AM",
     "startHour": 19,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -1842,6 +1921,7 @@
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/48/NH-Scorpion.png/revision/latest?cb=20200327125731",
     "price": "8000",
     "location": "On the ground",
+    "timeRange": "7 PM - 4 AM",
     "startHour": 19,
     "endHour": 4,
     "northernHemisphereMonths": [

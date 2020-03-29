@@ -36,7 +36,8 @@ def get_fish():
         fish['price'] = columns[2].text.strip()
         fish['location'] = columns[3].text.strip()
         fish['size'] = columns[4].text.strip()
-        fish['startHour'], fish['endHour'] = get_start_and_end_time(columns[5].text.strip())
+        fish['timeRange'] = columns[5].text.strip()
+        fish['startHour'], fish['endHour'] = get_start_and_end_time(fish['timeRange'])
         fish['northernHemisphereMonths'], fish['southernHemisphereMonths'] = get_months(columns[6:])
         allFish.append(fish)
 
@@ -57,7 +58,8 @@ def get_bugs():
         bug['image'] = None if (not columns[1].find('a')) else columns[1].find('a')['href']
         bug['price'] = columns[2].text.strip()
         bug['location'] = columns[3].text.strip()
-        bug['startHour'], bug['endHour'] = get_start_and_end_time(columns[4].text.strip())
+        bug['timeRange'] = columns[4].text.strip()
+        bug['startHour'], bug['endHour'] = get_start_and_end_time(bug['timeRange'])
         bug['northernHemisphereMonths'], bug['southernHemisphereMonths'] = get_months(columns[5:])
         allBugs.append(bug)
 

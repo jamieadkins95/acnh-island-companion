@@ -5,6 +5,7 @@
     "price": "900",
     "location": "River",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -28,6 +29,7 @@
     "price": "200",
     "location": "River",
     "size": "1",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -65,6 +67,7 @@
     "price": "160",
     "location": "River",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -102,6 +105,7 @@
     "price": "240",
     "location": "River",
     "size": "3",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -139,6 +143,7 @@
     "price": "300",
     "location": "Pond",
     "size": "4",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -176,6 +181,7 @@
     "price": "4,000",
     "location": "Pond",
     "size": "4",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -213,6 +219,7 @@
     "price": "1,300",
     "location": "Pond",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -250,6 +257,7 @@
     "price": "1,300",
     "location": "Pond",
     "size": "1",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -287,6 +295,7 @@
     "price": "4,500",
     "location": "Pond",
     "size": "2",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -324,6 +333,7 @@
     "price": "300",
     "location": "Pond",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -347,6 +357,7 @@
     "price": "200",
     "location": "Pond",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -372,6 +383,7 @@
     "price": "3,750",
     "location": "River",
     "size": "4",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -389,6 +401,7 @@
     "price": "5,000",
     "location": "River",
     "size": "5",
+    "timeRange": "9 PM - 4 AM",
     "startHour": 21,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -416,6 +429,7 @@
     "price": "100",
     "location": "Pond",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -439,6 +453,7 @@
     "price": "120",
     "location": "Pond",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -460,6 +475,7 @@
     "price": "400",
     "location": "River",
     "size": "2",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -497,6 +513,7 @@
     "price": "400",
     "location": "River",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -516,6 +533,7 @@
     "price": "800",
     "location": "Pond",
     "size": "4",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -541,6 +559,7 @@
     "price": "5,500",
     "location": "Pond",
     "size": "5",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -560,6 +579,7 @@
     "price": "180",
     "location": "River",
     "size": "2",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -597,6 +617,7 @@
     "price": "300",
     "location": "River",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -622,6 +643,7 @@
     "price": "400",
     "location": "River",
     "size": "4",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -659,6 +681,7 @@
     "price": "800",
     "location": "River",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -682,6 +705,7 @@
     "price": "1,800",
     "location": "River",
     "size": "5",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -703,6 +727,7 @@
     "price": "500",
     "location": "River",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -722,6 +747,7 @@
     "price": "900",
     "location": "River",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -741,6 +767,7 @@
     "price": "1,000",
     "location": "River (Clifftop)  Pond",
     "size": "3",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -768,6 +795,7 @@
     "price": "3,800",
     "location": "River (Clifftop)  Pond",
     "size": "3",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -795,6 +823,7 @@
     "price": "15,000",
     "location": "River (Clifftop)",
     "size": "3",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -820,6 +849,7 @@
     "price": "15,000",
     "location": "River (Clifftop)",
     "size": "5",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -841,6 +871,7 @@
     "price": "700",
     "location": "River (Mouth)",
     "size": "4",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -856,6 +887,7 @@
     "price": "1,800",
     "location": "River (Mouth)",
     "size": "6",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -871,6 +903,7 @@
     "price": "2,000",
     "location": "River",
     "size": "2",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -890,6 +923,7 @@
     "price": "1,300",
     "location": "River",
     "size": "1",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -919,6 +953,7 @@
     "price": "1,500",
     "location": "River",
     "size": "2",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -942,6 +977,7 @@
     "price": "3,000",
     "location": "River",
     "size": "2",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -967,6 +1003,7 @@
     "price": "2,500",
     "location": "River",
     "size": "2",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -992,6 +1029,7 @@
     "price": "500",
     "location": "River",
     "size": "1",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -1021,6 +1059,7 @@
     "price": "800",
     "location": "River",
     "size": "1",
+    "timeRange": "9 AM - 4 PM",
     "startHour": 9,
     "endHour": 16,
     "northernHemisphereMonths": [
@@ -1046,6 +1085,7 @@
     "price": "2,500",
     "location": "River",
     "size": "2",
+    "timeRange": "9 AM - 4 PM & 9 PM - 4 AM",
     "startHour": 9,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -1067,6 +1107,7 @@
     "price": "10,000",
     "location": "River",
     "size": "4",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -1088,6 +1129,7 @@
     "price": "15,000",
     "location": "River",
     "size": "5",
+    "timeRange": "4 AM - 9 PM",
     "startHour": 4,
     "endHour": 21,
     "northernHemisphereMonths": [
@@ -1109,6 +1151,7 @@
     "price": "6,000",
     "location": "Pond",
     "size": "6",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -1130,6 +1173,7 @@
     "price": "10,000",
     "location": "River",
     "size": "6",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -1151,6 +1195,7 @@
     "price": "4,000",
     "location": "River",
     "size": "4",
+    "timeRange": "9 PM - 4 AM",
     "startHour": 21,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -1172,6 +1217,7 @@
     "price": "10,000",
     "location": "River (Mouth)",
     "size": "6",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1199,6 +1245,7 @@
     "price": "1,000",
     "location": "Sea",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1220,6 +1267,7 @@
     "price": "1,100",
     "location": "Sea",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1249,6 +1297,7 @@
     "price": "650",
     "location": "Sea",
     "size": "1",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1274,6 +1323,7 @@
     "price": "1,000",
     "location": "Sea",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1299,6 +1349,7 @@
     "price": "1,000",
     "location": "Sea",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1324,6 +1375,7 @@
     "price": "10,000",
     "location": "Sea",
     "size": "6",
+    "timeRange": "4 AM - 9 PM",
     "startHour": 4,
     "endHour": 21,
     "northernHemisphereMonths": [
@@ -1341,6 +1393,7 @@
     "price": "500",
     "location": "Sea",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1370,6 +1423,7 @@
     "price": "5000",
     "location": "Sea",
     "size": "3",
+    "timeRange": "6 PM - 4 AM",
     "startHour": 18,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -1391,6 +1445,7 @@
     "price": "250",
     "location": "Sea",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1410,6 +1465,7 @@
     "price": "200",
     "location": "Sea",
     "size": "2",
+    "timeRange": "4 AM - 9 PM",
     "startHour": 4,
     "endHour": 21,
     "northernHemisphereMonths": [
@@ -1447,6 +1503,7 @@
     "price": "150",
     "location": "Sea",
     "size": "2",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1484,6 +1541,7 @@
     "price": "5,000",
     "location": "Sea",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1515,6 +1573,7 @@
     "price": "400",
     "location": "Sea",
     "size": "5",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1552,6 +1611,7 @@
     "price": "3,000",
     "location": "Sea",
     "size": "4",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1589,6 +1649,7 @@
     "price": "300",
     "location": "Sea",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1616,6 +1677,7 @@
     "price": "800",
     "location": "Sea",
     "size": "5",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1653,6 +1715,7 @@
     "price": "500",
     "location": "Sea",
     "size": "3",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1684,6 +1747,7 @@
     "price": "2,000",
     "location": "Sea",
     "size": "Narrow",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1703,6 +1767,7 @@
     "price": "600",
     "location": "Sea",
     "size": "Narrow",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1726,6 +1791,7 @@
     "price": "7,000",
     "location": "Pier",
     "size": "6",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1751,6 +1817,7 @@
     "price": "10,000",
     "location": "Pier",
     "size": "6",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1782,6 +1849,7 @@
     "price": "4,500",
     "location": "Pier",
     "size": "5",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1807,6 +1875,7 @@
     "price": "6,000",
     "location": "Pier",
     "size": "5",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1832,6 +1901,7 @@
     "price": "4,000",
     "location": "Sea",
     "size": "6 (Fin)",
+    "timeRange": "4 AM - 9 PM",
     "startHour": 4,
     "endHour": 21,
     "northernHemisphereMonths": [
@@ -1851,6 +1921,7 @@
     "price": "3,000",
     "location": "Sea",
     "size": "5",
+    "timeRange": "4 AM - 9 PM",
     "startHour": 4,
     "endHour": 21,
     "northernHemisphereMonths": [
@@ -1872,6 +1943,7 @@
     "price": "12,000",
     "location": "Sea",
     "size": "6 (Fin)",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -1893,6 +1965,7 @@
     "price": "8,000",
     "location": "Sea",
     "size": "6 (Fin)",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -1914,6 +1987,7 @@
     "price": "15,000",
     "location": "Sea",
     "size": "6 (Fin)",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -1935,6 +2009,7 @@
     "price": "13,000",
     "location": "Sea",
     "size": "6 (Fin)",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1956,6 +2031,7 @@
     "price": "1,500",
     "location": "Sea",
     "size": "? (Fin)",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -1977,6 +2053,7 @@
     "price": "2,500",
     "location": "Sea",
     "size": "4",
+    "timeRange": "4 PM - 9 AM",
     "startHour": 16,
     "endHour": 9,
     "northernHemisphereMonths": [
@@ -2000,6 +2077,7 @@
     "price": "9,000",
     "location": "Sea",
     "size": "6",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
@@ -2025,6 +2103,7 @@
     "price": "15,000",
     "location": "Sea",
     "size": "2",
+    "timeRange": "9 PM - 4 AM",
     "startHour": 21,
     "endHour": 4,
     "northernHemisphereMonths": [
@@ -2062,6 +2141,7 @@
     "price": "15,000",
     "location": "Sea (Raining)",
     "size": "6",
+    "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
     "northernHemisphereMonths": [
