@@ -7,6 +7,8 @@
     <string name="fish_available_now">Fish Available Now</string>
     <string name="bugs_available_now">Bugs Available Now</string>
     <string name="currently_available">Currently Available</string>
+    <string name="going_away_soon">Going Away Soon</string>
+    <string name="unavailable">The following critters won\'t be available after the end of this month.</string>
 
     <string name="monthRange">%s - %s</string>
 

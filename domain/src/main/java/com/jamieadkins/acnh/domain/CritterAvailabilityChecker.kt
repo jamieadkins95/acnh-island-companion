@@ -14,4 +14,11 @@ class CritterAvailabilityChecker @Inject constructor() {
         val correctMonth = months.contains(now.monthValue)
         return correctTime && correctMonth
     }
+
+    fun isCritterGoingSoon(currentMonth: Int, months: List<Int>): Boolean {
+        return when (currentMonth) {
+            12 -> months.contains(currentMonth) && !months.contains(1)
+            else -> months.contains(currentMonth) && !months.contains(currentMonth + 1)
+        }
+    }
 }

@@ -1,12 +1,14 @@
 package com.jamieadkins.acnh.home
 
 import com.jamieadkins.acnh.domain.GetCrittersAvailableNowUseCase
+import com.jamieadkins.acnh.domain.GetCrittersGoingSoonUseCase
 import com.jamieadkins.acnh.extensions.addToComposite
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 
 class HomePresenter @Inject constructor(
-    private val getCrittersAvailableNowUseCase: GetCrittersAvailableNowUseCase
+    private val getCrittersAvailableNowUseCase: GetCrittersAvailableNowUseCase,
+    private val getCrittersGoingSoonUseCase: GetCrittersGoingSoonUseCase
 ) : HomeContract.Presenter {
 
     private var view: HomeContract.View? = null
@@ -19,6 +21,10 @@ class HomePresenter @Inject constructor(
             .doOnSubscribe { view?.showLoadingIndicator() }
             .doOnNext { view?.hideLoadingIndicator() }
             .subscribe { view?.showCrittersAvailableNow(it) }
+            .addToComposite(compositeDisposable)
+
+        getCrittersGoingSoonUseCase.getCrittersGoingSoon()
+            .subscribe { view?.showCrittersGoingSoon(it) }
             .addToComposite(compositeDisposable)
     }
 

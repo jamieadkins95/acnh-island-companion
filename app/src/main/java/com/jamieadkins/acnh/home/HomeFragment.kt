@@ -26,11 +26,13 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
 
     private val groupAdapter = GroupAdapter<GroupieViewHolder>()
     private val currentlyAvailableSection = Section()
+    private val goingSoonSection = Section()
     private val fishSection = Section()
     private val bugsSection = Section()
 
     init {
         groupAdapter.add(currentlyAvailableSection)
+        groupAdapter.add(goingSoonSection)
         groupAdapter.add(fishSection)
         groupAdapter.add(bugsSection)
     }
@@ -69,5 +71,16 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
         currentlyAvailableSection.update(listOf(CurrentlyAvailableItem(availableNow)))
         fishSection.update(listOf(SubHeaderItem(R.string.fish_available_now, availableNow.timeEvaluatedAt)) + availableNow.fish.map (::FishItem))
         bugsSection.update(listOf(SubHeaderItem(R.string.bugs_available_now, availableNow.timeEvaluatedAt)) + availableNow.bugs.map(::BugItem))
+    }
+
+    override fun showCrittersGoingSoon(goingSoon: List<Any>) {
+        val critters = goingSoon.mapNotNull {
+            when (it) {
+                is FishEntity -> FishItem(it)
+                is BugEntity -> BugItem(it)
+                else -> null
+            }
+        }
+        goingSoonSection.update(listOf(GoingSoonItem()) + critters)
     }
 }

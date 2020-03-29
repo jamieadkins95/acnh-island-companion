@@ -10,6 +10,7 @@ interface HomeContract {
         fun showLoadingIndicator()
         fun hideLoadingIndicator()
         fun showCrittersAvailableNow(availableNow: AvailableNowEntity)
+        fun showCrittersGoingSoon(goingSoon: List<Any>)
     }
 
     interface Presenter {
