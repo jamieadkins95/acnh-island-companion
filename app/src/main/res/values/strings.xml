@@ -6,6 +6,7 @@
     <string name="bugs">Bugs</string>
     <string name="fish_available_now">Fish Available Now</string>
     <string name="bugs_available_now">Bugs Available Now</string>
+    <string name="currently_available">Currently Available</string>
 
     <string name="monthRange">%s - %s</string>
 

@@ -25,10 +25,12 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
     @Inject lateinit var presenter: HomeContract.Presenter
 
     private val groupAdapter = GroupAdapter<GroupieViewHolder>()
+    private val currentlyAvailableSection = Section()
     private val fishSection = Section()
     private val bugsSection = Section()
 
     init {
+        groupAdapter.add(currentlyAvailableSection)
         groupAdapter.add(fishSection)
         groupAdapter.add(bugsSection)
     }
@@ -64,6 +66,7 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
     }
 
     override fun showCrittersAvailableNow(availableNow: AvailableNowEntity) {
+        currentlyAvailableSection.update(listOf(CurrentlyAvailableItem(availableNow)))
         fishSection.update(listOf(SubHeaderItem(R.string.fish_available_now, availableNow.timeEvaluatedAt)) + availableNow.fish.map (::FishItem))
         bugsSection.update(listOf(SubHeaderItem(R.string.bugs_available_now, availableNow.timeEvaluatedAt)) + availableNow.bugs.map(::BugItem))
     }

@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.view_subheader.view.*
 import org.threeten.bp.ZonedDateTime
 import org.threeten.bp.format.DateTimeFormatter
 
-data class SubHeaderItem(@StringRes private val text: Int, private val time: ZonedDateTime) : Item(text.hashCode().toLong()) {
+data class SubHeaderItem(@StringRes private val text: Int, private val time: ZonedDateTime) : Item(text.toLong()) {
 
     override fun getLayout(): Int = R.layout.view_subheader
 
