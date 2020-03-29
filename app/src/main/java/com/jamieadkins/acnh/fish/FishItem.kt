@@ -20,5 +20,6 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
         time.text = fish.timeRange
         months.text = resources.getMonthRange(fish.months)
         size.text = fish.size
+        location.text = fish.location
     }
 }

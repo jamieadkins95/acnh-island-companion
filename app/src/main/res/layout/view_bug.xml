@@ -58,6 +58,14 @@
                 android:layout_height="wrap_content"
                 tools:text="Jan - Mar" />
 
+            <com.google.android.material.chip.Chip
+                android:id="@+id/location"
+                app:closeIconEnabled="false"
+                app:chipIcon="@drawable/ic_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Flying" />
+
         </com.google.android.material.chip.ChipGroup>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
