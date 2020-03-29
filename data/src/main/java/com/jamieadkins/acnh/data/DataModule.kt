@@ -1,4 +1,4 @@
-package com.jamieadkins.acnh.data.fish
+package com.jamieadkins.acnh.data
 
 import com.google.firebase.firestore.FirebaseFirestore
 import dagger.Module

@@ -15,7 +15,9 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
 
     private fun View.bind() {
         name.text = fish.name
-        price.text = fish.price.toString()
+        price.text = fish.price
         time.text = fish.timeRange
+        months.text = "Jan - Mar"
+        size.text = fish.size
     }
 }

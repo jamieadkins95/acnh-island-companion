@@ -1,4 +1,4 @@
-package com.jamieadkins.acnh.fish
+package com.jamieadkins.acnh
 
 import android.graphics.Rect
 import android.view.View
@@ -8,7 +8,7 @@ import com.jamieadkins.acnh.extensions.setMargins
 import com.jamieadkins.acnh.extensions.setMarginsToGrid
 import com.xwray.groupie.GroupAdapter
 
-class FishDecoration : RecyclerView.ItemDecoration() {
+class CritterListDecoration : RecyclerView.ItemDecoration() {
     override fun getItemOffsets(outRect: Rect, view: View, parent: RecyclerView, state: RecyclerView.State) {
         val position = parent.getChildAdapterPosition(view)
         if (position == RecyclerView.NO_POSITION) return

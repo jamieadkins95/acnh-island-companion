@@ -1,1 +1,2 @@
 -keep class com.jamieadkins.acnh.data.fish.FirebaseFish { *; }
+-keep class com.jamieadkins.acnh.data.bugs.FirebaseBug { *; }

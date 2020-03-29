@@ -16,6 +16,7 @@
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.IslandCompanionTheme.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.IslandCompanionTheme.MediumComponent</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.IslandCompanionTheme.LargeComponent</item>
+        <item name="chipStyle">@style/IslandCompanionTheme.Chip.Entry</item>
     </style>
 
     <style name="ShapeAppearance.IslandCompanionTheme.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
@@ -33,9 +34,13 @@
         <item name="cornerSize">36dp</item>
     </style>
 
-    <style name="IslandCompanionTheme.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+    <style name="IslandCompanionTheme.Chip.Entry" parent="Widget.MaterialComponents.Chip.Entry">
         <item name="android:textColor">@color/choice_chip_text_color</item>
         <item name="chipBackgroundColor">@color/choice_chip_background_color</item>
+        <item name="android:checkable">false</item>
+        <item name="closeIconEnabled">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
     </style>
 
 </resources>

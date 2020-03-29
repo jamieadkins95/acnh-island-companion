@@ -1,4 +1,4 @@
-package com.jamieadkins.acnh.fish
+package com.jamieadkins.acnh.bugs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,22 +6,22 @@ import android.view.View
 import android.view.ViewGroup
 import com.jamieadkins.acnh.CritterListDecoration
 import com.jamieadkins.acnh.R
-import com.jamieadkins.acnh.databinding.FragmentFishBinding
-import com.jamieadkins.acnh.domain.fish.FishEntity
+import com.jamieadkins.acnh.databinding.FragmentBugBinding
+import com.jamieadkins.acnh.domain.bugs.BugEntity
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
-class FishFragment : DaggerFragment(), FishContract.View {
+class BugsFragment : DaggerFragment(), BugContract.View {
 
-    private var binding: FragmentFishBinding? = null
-    @Inject lateinit var presenter: FishContract.Presenter
+    private var binding: FragmentBugBinding? = null
+    @Inject lateinit var presenter: BugContract.Presenter
 
     private val groupAdapter = GroupAdapter<GroupieViewHolder>()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val newBinding = FragmentFishBinding.inflate(inflater, container, false)
+        val newBinding = FragmentBugBinding.inflate(inflater, container, false)
         binding = newBinding
         return newBinding.root
     }
@@ -50,7 +50,7 @@ class FishFragment : DaggerFragment(), FishContract.View {
 
     }
 
-    override fun showFish(fish: List<FishEntity>) {
-        groupAdapter.update(fish.map(::FishItem))
+    override fun showBugs(bugs: List<BugEntity>) {
+        groupAdapter.update(bugs.map(::BugItem))
     }
 }

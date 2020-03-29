@@ -15,16 +15,14 @@
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?textAppearanceHeadline6"
-            tools:text="Sea Bass"
+            tools:text="Butterfly"
             android:layout_marginTop="12dp"
             android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
             app:layout_constraintVertical_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/info" />
 
@@ -32,12 +30,9 @@
             android:id="@+id/info"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/name"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintStart_toStartOf="@id/name">
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/price"
@@ -62,14 +57,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="Jan - Mar" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/size"
-                app:closeIconEnabled="false"
-                app:chipIcon="@drawable/ic_scale"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="5" />
 
         </com.google.android.material.chip.ChipGroup>
 

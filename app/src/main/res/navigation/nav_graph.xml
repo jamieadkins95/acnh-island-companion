@@ -14,6 +14,6 @@
 
     <fragment android:id="@+id/bugs"
         android:label="@string/bugs"
-        android:name="com.jamieadkins.acnh.fish.FishFragment" />
+        android:name="com.jamieadkins.acnh.bugs.BugsFragment" />
 
 </navigation>
