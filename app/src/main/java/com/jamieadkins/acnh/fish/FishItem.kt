@@ -4,6 +4,7 @@ import android.view.View
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.domain.fish.FishEntity
 import com.jamieadkins.acnh.extensions.getMonthRange
+import com.jamieadkins.acnh.extensions.isConsecutive
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
 import kotlinx.android.synthetic.main.view_fish.view.*
@@ -18,7 +19,14 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
         name.text = fish.name
         price.text = fish.price
         time.text = fish.timeRange
-        months.text = resources.getMonthRange(fish.months)
+        months.text = when {
+            fish.months.size == 12 -> resources.getString(R.string.all_year)
+            fish.months.isConsecutive() -> resources.getMonthRange(fish.months)
+            else -> {
+                val monthArray = resources.getStringArray(R.array.months)
+                fish.months.joinToString { monthArray[it - 1] }
+            }
+        }
         size.text = fish.size
         location.text = fish.location
     }

@@ -9,3 +9,7 @@ fun Resources.getMonthRange(months: List<Int>): String {
     val endMonth = monthArray[months.lastOrNull()?.minus(1) ?: 0]
     return getString(R.string.monthRange, startMonth, endMonth)
 }
+
+fun List<Int>.isConsecutive(): Boolean {
+    return if (isEmpty()) true else sorted() == IntRange(min()!!, max()!!).toList()
+}

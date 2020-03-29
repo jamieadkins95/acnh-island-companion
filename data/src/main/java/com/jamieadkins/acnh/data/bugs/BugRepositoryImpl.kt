@@ -1,5 +1,6 @@
 package com.jamieadkins.acnh.data.bugs
 
+import androidx.annotation.VisibleForTesting
 import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
@@ -30,6 +31,7 @@ class BugRepositoryImpl @Inject constructor(
 
                     val bug = snapshot?.documents?.mapNotNull { doc ->
                         val result = doc.toObject(FirebaseBug::class.java)
+                        val months = result?.northernHemisphereMonths ?: emptyList()
                         BugEntity(
                             doc?.id ?: return@mapNotNull null,
                             result?.name ?: "",
@@ -38,13 +40,41 @@ class BugRepositoryImpl @Inject constructor(
                             result?.startHour ?: 0,
                             result?.endHour ?: 24,
                             result?.timeRange ?: "All Day",
-                            result?.northernHemisphereMonths ?: emptyList()
+                            months
                         )
                     } ?: emptyList()
 
                     emitter.onNext(bug)
                 })
             emitter.setCancellable { listenerRegistration.remove() }
+        }
+    }
+
+    companion object {
+
+        @VisibleForTesting
+        fun getMonthRanges(months: List<Int>): List<Pair<Int, Int>> {
+            val ranges = mutableListOf<Pair<Int, Int>>()
+            var lastMonth: Int? = null
+            var currentStartMonth: Int? = null
+            months.sorted().forEachIndexed { index, month ->
+                when {
+                    currentStartMonth == null -> { currentStartMonth = month }
+                    lastMonth != null && (month != lastMonth?.plus(1)) -> { ranges.add(currentStartMonth!! to month) }
+                    month == 12 -> ranges.add(currentStartMonth!! to month)
+                }
+
+                if (index == months.size - 1) {
+                    ranges.add(currentStartMonth!! to month)
+                }
+
+                lastMonth = month
+            }
+
+            return ranges
+
+            // Find all ranges
+            // Combine all ranges that end in 12 and start with 1
         }
     }
 }
