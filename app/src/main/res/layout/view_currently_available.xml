@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/currentlyAvailableText"
+            android:id="@+id/title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAppearance="?textAppearanceHeadline6"
@@ -36,8 +36,8 @@
             android:drawablePadding="4dp"
             android:drawableStart="@drawable/ic_time"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="@id/currentlyAvailableText"
-            app:layout_constraintTop_toTopOf="@id/currentlyAvailableText" />
+            app:layout_constraintBottom_toBottomOf="@id/title"
+            app:layout_constraintTop_toTopOf="@id/title" />
 
         <TextView
             android:id="@+id/fishCount"
@@ -47,7 +47,7 @@
             tools:text="15"
             android:includeFontPadding="false"
             app:layout_constraintHorizontal_chainStyle="spread"
-            app:layout_constraintTop_toBottomOf="@id/currentlyAvailableText"
+            app:layout_constraintTop_toBottomOf="@id/title"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@id/bugsCount"/>
 
@@ -59,7 +59,7 @@
             tools:text="15"
             android:includeFontPadding="false"
             app:layout_constraintHorizontal_chainStyle="spread"
-            app:layout_constraintTop_toBottomOf="@id/currentlyAvailableText"
+            app:layout_constraintTop_toBottomOf="@id/title"
             app:layout_constraintStart_toEndOf="@id/fishCount"
             app:layout_constraintEnd_toEndOf="parent" />
 

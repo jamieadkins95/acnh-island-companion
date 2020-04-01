@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/going_away_soon" />
+        tools:text="@string/going_away_soon" />
 
     <TextView
         android:id="@+id/subtitle"
@@ -34,5 +34,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title"
-        android:text="@string/unavailable" />
+        tools:text="@string/unavailable_next_month" />
 </androidx.constraintlayout.widget.ConstraintLayout>

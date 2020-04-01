@@ -16,19 +16,20 @@ class GetCrittersGoingSoonUseCase @Inject constructor(
     private val schedulerProvider: SchedulerProvider
 ) {
 
-    fun getCrittersGoingSoon(): Observable<List<Any>> {
+    fun getCrittersGoingSoon(): Observable<BugFishSummaryEntity> {
         return Observable.combineLatest(
             fishRepository.getFish(),
             bugRepository.getBugs(),
             BiFunction { allFish: List<FishEntity>, allBugs: List<BugEntity> ->
-                val currentMonth = ZonedDateTime.now().monthValue
+                val now = ZonedDateTime.now()
+                val currentMonth = now.monthValue
                 val fishGoingSoon = allFish.filter {
                     fish -> critterAvailabilityChecker.isCritterGoingSoon(currentMonth, fish.months)
                 }
                 val bugsGoingSoon = allBugs.filter {
                     bug -> critterAvailabilityChecker.isCritterGoingSoon(currentMonth, bug.months)
                 }
-                fishGoingSoon + bugsGoingSoon
+                BugFishSummaryEntity(fishGoingSoon, bugsGoingSoon, now)
             }
         )
             .subscribeOn(schedulerProvider.io())

@@ -21,4 +21,18 @@ class CritterAvailabilityChecker @Inject constructor() {
             else -> months.contains(currentMonth) && !months.contains(currentMonth + 1)
         }
     }
+
+    fun isCritterComingSoon(currentMonth: Int, months: List<Int>): Boolean {
+        return when (currentMonth) {
+            12 -> !months.contains(currentMonth) && months.contains(1)
+            else -> !months.contains(currentMonth) && months.contains(currentMonth + 1)
+        }
+    }
+
+    fun isCritterNewThisMonth(currentMonth: Int, months: List<Int>): Boolean {
+        return when (currentMonth) {
+            1 -> months.contains(currentMonth) && !months.contains(12)
+            else -> months.contains(currentMonth) && !months.contains(currentMonth - 1)
+        }
+    }
 }

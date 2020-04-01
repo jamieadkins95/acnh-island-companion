@@ -1,16 +1,16 @@
 package com.jamieadkins.acnh.home
 
-import com.jamieadkins.acnh.domain.AvailableNowEntity
-import com.jamieadkins.acnh.domain.bugs.BugEntity
-import com.jamieadkins.acnh.domain.fish.FishEntity
+import com.jamieadkins.acnh.domain.BugFishSummaryEntity
 
 interface HomeContract {
 
     interface View {
         fun showLoadingIndicator()
         fun hideLoadingIndicator()
-        fun showCrittersAvailableNow(availableNow: AvailableNowEntity)
-        fun showCrittersGoingSoon(goingSoon: List<Any>)
+        fun showCrittersAvailableNow(bugFishSummary: BugFishSummaryEntity)
+        fun showCrittersGoingSoon(goingSoon: BugFishSummaryEntity)
+        fun showCrittersComingSoon(comingSoon: BugFishSummaryEntity)
+        fun showCrittersNewThisMonth(newThisMonth: BugFishSummaryEntity)
     }
 
     interface Presenter {
