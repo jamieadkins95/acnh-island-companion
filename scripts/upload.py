@@ -15,7 +15,7 @@ fish_ref = db.collection(u'fish')
 with open('scripts/fish.json') as json_file:
     data = json.load(json_file)
     for fish in data:
-        doc_ref = fish_ref.document(fish['name'])
+        doc_ref = fish_ref.document(fish['name'].lower())
         batch.set(doc_ref, fish)
 
 
@@ -23,7 +23,7 @@ bugs_ref = db.collection(u'bugs')
 with open('scripts/bugs.json') as json_file:
     data = json.load(json_file)
     for bug in data:
-        doc_ref = bugs_ref.document(bug['name'])
+        doc_ref = bugs_ref.document(bug['name'].lower())
         batch.set(doc_ref, bug)
 
 batch.commit()
