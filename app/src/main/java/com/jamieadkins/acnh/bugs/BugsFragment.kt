@@ -38,9 +38,11 @@ class BugsFragment : DaggerFragment(), BugContract.View {
             addItemDecoration(CritterListDecoration())
         }
 
-        groupAdapter.setOnItemClickListener { item, _ ->
-            when (item) {
-                is BugItem -> if (BuildConfig.DEBUG) findNavController().navigate(NavGraphDirections.toBugProfile(item.bug.id))
+        if (BuildConfig.DEBUG) {
+            groupAdapter.setOnItemClickListener { item, _ ->
+                when (item) {
+                    is BugItem -> if (BuildConfig.DEBUG) findNavController().navigate(NavGraphDirections.toBugProfile(item.bug.id))
+                }
             }
         }
     }
