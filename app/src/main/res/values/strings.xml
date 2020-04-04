@@ -8,10 +8,15 @@
     <string name="bugs_available_now">Bugs Available Now</string>
     <string name="currently_available">Currently Available</string>
     <string name="going_away_soon">Going Away Soon</string>
+    <string name="going_away_soon_description">Get notified when creatures are about to go out of season.</string>
+    <string name="going_away_soon_notification">%d creatures are going away soon!</string>
+    <string name="going_away_soon_notification_description">Be sure to catch them before the end of the month!</string>
     <string name="unavailable_next_month">The following critters won\'t be available after the end of this month.</string>
     <string name="coming_soon">Coming Soon</string>
     <string name="available_next_month">The following critters will be available from the start of next month.</string>
     <string name="new_this_month">New This Month</string>
+    <string name="new_this_month_description">Get notified at the start of the month with the new creatures you can find and catch.</string>
+    <string name="new_this_month_notification">%d creatures have started spawning this month!</string>
     <string name="new_this_month_subtitle">The following critters weren\'t available last month, but are available this month.</string>
 
     <string name="monthRange">%s - %s</string>

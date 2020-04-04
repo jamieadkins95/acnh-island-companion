@@ -10,6 +10,7 @@ object Libs {
     const val material_design = "com.google.android.material:material:${Versions.material_design}"
     const val nav_component_fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.nav_component}"
     const val nav_component_ui = "androidx.navigation:navigation-ui-ktx:${Versions.nav_component}"
+    const val work_manager = "androidx.work:work-runtime-ktx:${Versions.work_manager}"
 
     //retrofit
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"

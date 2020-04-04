@@ -35,6 +35,9 @@ dependencies {
     implementation Libs.material_design
     implementation Libs.nav_component_fragment
     implementation Libs.nav_component_ui
+    implementation Libs.work_manager
+    // Fixes Duplicate class com.google.common.util.concurrent.ListenableFuture
+    implementation 'com.google.guava:guava:28.0-android'
 
     implementation Libs.firebase_analytics
     implementation Libs.firebase_crashlytics
