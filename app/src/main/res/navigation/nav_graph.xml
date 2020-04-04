@@ -4,6 +4,10 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/home">
 
+    <action
+        android:id="@+id/to_bug_profile"
+        app:destination="@id/bug_profile" />
+
     <fragment android:id="@+id/home"
         android:label="@string/island_companion"
         android:name="com.jamieadkins.acnh.home.HomeFragment" />
@@ -15,5 +19,15 @@
     <fragment android:id="@+id/bugs"
         android:label="@string/bugs"
         android:name="com.jamieadkins.acnh.bugs.BugsFragment" />
+
+    <fragment android:id="@+id/bug_profile"
+        android:label="@string/bugs"
+        android:name="com.jamieadkins.acnh.bugs.profile.BugProfileFragment">
+
+        <argument
+            android:name="id"
+            app:argType="string" />
+
+    </fragment>
 
 </navigation>

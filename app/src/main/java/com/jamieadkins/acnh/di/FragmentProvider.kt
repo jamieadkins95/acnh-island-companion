@@ -2,6 +2,8 @@ package com.jamieadkins.acnh.di
 
 import com.jamieadkins.acnh.bugs.BugsFragment
 import com.jamieadkins.acnh.bugs.BugsModule
+import com.jamieadkins.acnh.bugs.profile.BugProfileFragment
+import com.jamieadkins.acnh.bugs.profile.BugProfileModule
 import com.jamieadkins.acnh.data.bugs.BugsDataModule
 import com.jamieadkins.acnh.data.fish.FishDataModule
 import com.jamieadkins.acnh.fish.FishFragment
@@ -19,6 +21,9 @@ abstract class FragmentProvider {
 
     @ContributesAndroidInjector(modules = [BugsModule::class, BugsDataModule::class])
     abstract fun bugs(): BugsFragment
+
+    @ContributesAndroidInjector(modules = [BugProfileModule::class, BugsDataModule::class])
+    abstract fun bugProfile(): BugProfileFragment
 
     @ContributesAndroidInjector(modules = [HomeModule::class, FishDataModule::class, BugsDataModule::class])
     abstract fun home(): HomeFragment

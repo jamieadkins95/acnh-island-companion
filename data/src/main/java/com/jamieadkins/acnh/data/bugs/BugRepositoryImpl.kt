@@ -1,6 +1,7 @@
 package com.jamieadkins.acnh.data.bugs
 
 import androidx.annotation.VisibleForTesting
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
@@ -31,24 +32,52 @@ class BugRepositoryImpl @Inject constructor(
 
                     val bug = snapshot?.documents?.mapNotNull { doc ->
                         val result = doc.toObject(FirebaseBug::class.java)
-                        val months = result?.northernHemisphereMonths ?: emptyList()
-                        BugEntity(
-                            doc?.id ?: return@mapNotNull null,
-                            result?.name ?: "",
-                            result?.image ?: "",
-                            result?.location ?: "",
-                            result?.price ?: "",
-                            result?.startHour ?: 0,
-                            result?.endHour ?: 24,
-                            result?.timeRange ?: "All Day",
-                            months
-                        )
+                        mapToBugEntity(doc.id, result)
                     } ?: emptyList()
 
                     emitter.onNext(bug)
                 })
             emitter.setCancellable { listenerRegistration.remove() }
         }
+    }
+
+    override fun getBug(id: String): Observable<BugEntity> {
+        return Observable.create { emitter ->
+            val ref = firestore.collection("bugs").document(id)
+
+            val listenerRegistration = ref
+                .addSnapshotListener(EventListener<DocumentSnapshot> { snapshot, e ->
+                    if (e != null) {
+                        Timber.e(e)
+                        emitter.onError(e)
+                        return@EventListener
+                    }
+
+                    val result = snapshot?.toObject(FirebaseBug::class.java)
+                    val bug = mapToBugEntity(snapshot?.id, result)
+                    if (bug != null) {
+                        emitter.onNext(bug)
+                    } else {
+                        emitter.onError(Exception("Falied to map bug"))
+                    }
+                })
+            emitter.setCancellable { listenerRegistration.remove() }
+        }
+    }
+
+    private fun mapToBugEntity(id: String?, firebaseBug: FirebaseBug?): BugEntity? {
+        val months = firebaseBug?.northernHemisphereMonths ?: emptyList()
+        return BugEntity(
+            id ?: return null,
+            firebaseBug?.name ?: "",
+            firebaseBug?.image ?: "",
+            firebaseBug?.location ?: "",
+            firebaseBug?.price ?: "",
+            firebaseBug?.startHour ?: 0,
+            firebaseBug?.endHour ?: 24,
+            firebaseBug?.timeRange ?: "All Day",
+            months
+        )
     }
 
     companion object {
