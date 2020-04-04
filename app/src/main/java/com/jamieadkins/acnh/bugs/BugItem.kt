@@ -1,6 +1,7 @@
 package com.jamieadkins.acnh.bugs
 
 import android.view.View
+import coil.api.load
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.domain.bugs.BugEntity
 import com.jamieadkins.acnh.extensions.getMonthRange
@@ -28,5 +29,6 @@ data class BugItem(val bug: BugEntity) : Item(bug.id.hashCode().toLong()) {
             }
         }
         location.text = bug.location
+        image.load(bug.imageUrl)
     }
 }

@@ -35,6 +35,7 @@ class BugRepositoryImpl @Inject constructor(
                         BugEntity(
                             doc?.id ?: return@mapNotNull null,
                             result?.name ?: "",
+                            result?.image ?: "",
                             result?.location ?: "",
                             result?.price ?: "",
                             result?.startHour ?: 0,

@@ -3,6 +3,7 @@ package com.jamieadkins.acnh.domain.fish
 data class FishEntity(
     val id: String,
     val name: String,
+    val imageUrl: String,
     val location: String,
     val price: String,
     val size: String,

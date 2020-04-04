@@ -1,6 +1,7 @@
 package com.jamieadkins.acnh.fish
 
 import android.view.View
+import coil.api.load
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.domain.fish.FishEntity
 import com.jamieadkins.acnh.extensions.getMonthRange
@@ -29,5 +30,6 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
         }
         size.text = fish.size
         location.text = fish.location
+        image.load(fish.imageUrl)
     }
 }

@@ -32,6 +32,7 @@ class FishRepositoryImpl @Inject constructor(
                         FishEntity(
                             doc?.id ?: return@mapNotNull null,
                             result?.name ?: "",
+                            result?.image ?: "",
                             result?.location ?: "",
                             result?.price ?: "",
                             result?.size ?: "",
