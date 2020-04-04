@@ -7,7 +7,6 @@ import kotlin.test.assertEquals
 class BugRepositoryImplTest {
 
     @Test
-    @Ignore
     fun `Available all year, one range jan - dec`() {
         val allYear = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
         val result = BugRepositoryImpl.getMonthRanges(allYear)
@@ -15,7 +14,6 @@ class BugRepositoryImplTest {
     }
 
     @Test
-    @Ignore
     fun `Available jan to feb, one range jan - feb`() {
         val months = listOf(1, 2)
         val result = BugRepositoryImpl.getMonthRanges(months)
@@ -23,7 +21,6 @@ class BugRepositoryImplTest {
     }
 
     @Test
-    @Ignore
     fun `Available dec to jan, one range dec - jan`() {
         val months = listOf(1, 12)
         val result = BugRepositoryImpl.getMonthRanges(months)
@@ -31,7 +28,6 @@ class BugRepositoryImplTest {
     }
 
     @Test
-    @Ignore
     fun `Available jan to feb and jun to jul, 2 ranges`() {
         val months = listOf(1, 2, 6, 7)
         val result = BugRepositoryImpl.getMonthRanges(months)
@@ -39,7 +35,6 @@ class BugRepositoryImplTest {
     }
 
     @Test
-    @Ignore
     fun `Available nov to feb and jun to sept, 2 ranges`() {
         val months = listOf(1, 2, 6, 7, 8, 11, 12)
         val result = BugRepositoryImpl.getMonthRanges(months)
@@ -47,7 +42,6 @@ class BugRepositoryImplTest {
     }
 
     @Test
-    @Ignore
     fun `Available jan only`() {
         val months = listOf(1)
         val result = BugRepositoryImpl.getMonthRanges(months)
@@ -55,7 +49,6 @@ class BugRepositoryImplTest {
     }
 
     @Test
-    @Ignore
     fun `Available dec only`() {
         val months = listOf(12)
         val result = BugRepositoryImpl.getMonthRanges(months)

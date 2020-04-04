@@ -9,6 +9,13 @@ import com.jamieadkins.acnh.extensions.isConsecutive
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
 import kotlinx.android.synthetic.main.view_bug.view.*
+import kotlinx.android.synthetic.main.view_bug.view.image
+import kotlinx.android.synthetic.main.view_bug.view.location
+import kotlinx.android.synthetic.main.view_bug.view.months
+import kotlinx.android.synthetic.main.view_bug.view.name
+import kotlinx.android.synthetic.main.view_bug.view.price
+import kotlinx.android.synthetic.main.view_bug.view.time
+import kotlinx.android.synthetic.main.view_fish.view.*
 
 data class BugItem(val bug: BugEntity) : Item(bug.id.hashCode().toLong()) {
 
@@ -18,7 +25,7 @@ data class BugItem(val bug: BugEntity) : Item(bug.id.hashCode().toLong()) {
 
     private fun View.bind() {
         name.text = bug.name
-        price.text = bug.price
+        price.text = bug.price.toIntOrNull()?.let { String.format("%,d", it) } ?: bug.price
         time.text = bug.timeRange
         months.text = when {
             bug.months.size == 12 -> resources.getString(R.string.all_year)

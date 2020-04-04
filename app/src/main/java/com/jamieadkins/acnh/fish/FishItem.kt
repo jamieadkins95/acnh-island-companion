@@ -18,7 +18,7 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
 
     private fun View.bind() {
         name.text = fish.name
-        price.text = fish.price
+        price.text = fish.price.toIntOrNull()?.let { String.format("%,d", it) } ?: fish.price
         time.text = fish.timeRange
         months.text = when {
             fish.months.size == 12 -> resources.getString(R.string.all_year)
@@ -28,7 +28,6 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
                 fish.months.joinToString { monthArray[it - 1] }
             }
         }
-        size.text = fish.size
         location.text = fish.location
         image.load(fish.imageUrl)
     }
