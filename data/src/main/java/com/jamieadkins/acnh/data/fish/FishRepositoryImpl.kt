@@ -39,7 +39,8 @@ class FishRepositoryImpl @Inject constructor(
                             result?.startHour ?: 0,
                             result?.endHour ?: 24,
                             result?.timeRange ?: "All Day",
-                            result?.northernHemisphereMonths ?: emptyList()
+                            result?.northernHemisphereMonths ?: emptyList(),
+                            false
                         )
                     } ?: emptyList()
 

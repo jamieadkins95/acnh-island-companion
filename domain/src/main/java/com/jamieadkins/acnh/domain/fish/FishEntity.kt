@@ -10,5 +10,6 @@ data class FishEntity(
     val startHour: Int,
     val endHour: Int,
     val timeRange: String,
-    val months: List<Int>
+    val months: List<Int>,
+    val caught: Boolean
 )

@@ -24,14 +24,13 @@ class GetCrittersAvailableNowUseCase @Inject constructor(
             bugRepository.getBugs(),
             Function3 { _: Long, allFish: List<FishEntity>, allBugs: List<BugEntity> ->
                 val now = ZonedDateTime.now()
-                val fishAvailableNow = allFish.filter {
-                    fish -> critterAvailabilityChecker.isCritterAvailableNow(now, fish.startHour, fish.endHour, fish.months)
+                val fishAvailableNow = allFish.filter { fish ->
+                    critterAvailabilityChecker.isCritterAvailableNow(now, fish.startHour, fish.endHour, fish.months)
                 }
-                val bugsAvailableNow = allBugs.filter {
-                    bug -> critterAvailabilityChecker.isCritterAvailableNow(now, bug.startHour, bug.endHour, bug.months)
+                val bugsAvailableNow = allBugs.filter { bug ->
+                    critterAvailabilityChecker.isCritterAvailableNow(now, bug.startHour, bug.endHour, bug.months)
                 }
-                val alreadycaught = 0
-                BugFishSummaryEntity(fishAvailableNow, bugsAvailableNow, alreadycaught, now)
+                BugFishSummaryEntity(fishAvailableNow, bugsAvailableNow, now)
             }
         )
             .subscribeOn(schedulerProvider.io())

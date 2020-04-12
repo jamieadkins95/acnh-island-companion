@@ -76,7 +76,8 @@ class BugRepositoryImpl @Inject constructor(
             firebaseBug?.startHour ?: 0,
             firebaseBug?.endHour ?: 24,
             firebaseBug?.timeRange ?: "All Day",
-            months
+            months,
+            false
         )
     }
 

@@ -21,8 +21,8 @@ data class BugFishSummaryItem(
 
     private fun View.bind() {
         title.setText(titleText)
-        fishCount.text = String.format("%02d", bugFishSummary.fish.size)
-        bugsCount.text = String.format("%02d", bugFishSummary.bugs.size)
+        fishCount.text = String.format("%02d", bugFishSummary.uncaughtFish.size)
+        bugsCount.text = String.format("%02d", bugFishSummary.uncaughtBugs.size)
         currentTime.text = bugFishSummary.timeEvaluatedAt.format(DateTimeFormatter.ofPattern("hh:mm a"))
         currentTime.visibility = if (showTime) View.VISIBLE else View.GONE
         more.text = resources.getQuantityString(R.plurals.more_uncaught, bugFishSummary.alreadyCaught, bugFishSummary.alreadyCaught)

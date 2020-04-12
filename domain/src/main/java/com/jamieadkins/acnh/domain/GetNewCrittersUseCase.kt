@@ -23,14 +23,13 @@ class GetNewCrittersUseCase @Inject constructor(
             BiFunction { allFish: List<FishEntity>, allBugs: List<BugEntity> ->
                 val now = ZonedDateTime.now()
                 val currentMonth = now.monthValue
-                val fishGoingSoon = allFish.filter {
+                val newFish = allFish.filter {
                     fish -> critterAvailabilityChecker.isCritterNewThisMonth(currentMonth, fish.months)
                 }
-                val bugsGoingSoon = allBugs.filter {
+                val newBugs = allBugs.filter {
                     bug -> critterAvailabilityChecker.isCritterNewThisMonth(currentMonth, bug.months)
                 }
-                val alreadycaught = 0
-                BugFishSummaryEntity(fishGoingSoon, bugsGoingSoon, alreadycaught, now)
+                BugFishSummaryEntity(newFish, newBugs, now)
             }
         )
             .subscribeOn(schedulerProvider.io())
