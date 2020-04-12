@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
+import androidx.navigation.NavDeepLinkBuilder
 import androidx.work.WorkerParameters
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.domain.GetCrittersGoingSoonUseCase
@@ -23,6 +24,11 @@ class GoingAwaySoonWorker(private val appContext: Context, params: WorkerParamet
 
         createNotificationChannel(appContext, "going-soon", R.string.going_away_soon, R.string.going_away_soon_description)
 
+        val pendingIntent = NavDeepLinkBuilder(appContext)
+            .setGraph(R.navigation.nav_graph)
+            .setDestination(R.id.going_soon)
+            .createPendingIntent()
+
         val title = appContext.getString(R.string.going_away_soon_notification, goingSoon.fish.size + goingSoon.bugs.size)
         val text = appContext.getString(R.string.going_away_soon_notification_description)
         val notification = NotificationCompat.Builder(appContext, "going-soon")
@@ -32,7 +38,7 @@ class GoingAwaySoonWorker(private val appContext: Context, params: WorkerParamet
             .setStyle(NotificationCompat.BigTextStyle().bigText(text))
             .setColor(ContextCompat.getColor(appContext, R.color.primaryColor))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setContentIntent(getAppIntent(appContext))
+            .setContentIntent(pendingIntent)
             .setAutoCancel(true)
 
         NotificationManagerCompat.from(appContext).notify(476823, notification.build())

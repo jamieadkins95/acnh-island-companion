@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.jamieadkins.acnh.CritterListDecoration
+import com.jamieadkins.acnh.NavGraphDirections
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.bugs.BugItem
 import com.jamieadkins.acnh.databinding.FragmentHomeBinding
@@ -55,6 +57,16 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
         binding?.recyclerView?.apply {
             adapter = groupAdapter
             addItemDecoration(CritterListDecoration())
+        }
+
+        groupAdapter.setOnItemClickListener { item, _ ->
+            when (item) {
+                is BugFishSummaryItem -> {
+                    when (item.titleText) {
+                        R.string.going_away_soon -> findNavController().navigate(NavGraphDirections.toGoingSoon())
+                    }
+                }
+            }
         }
     }
 

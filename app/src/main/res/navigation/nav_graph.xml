@@ -8,6 +8,10 @@
         android:id="@+id/to_bug_profile"
         app:destination="@id/bug_profile" />
 
+    <action
+        android:id="@+id/to_going_soon"
+        app:destination="@id/going_soon" />
+
     <fragment android:id="@+id/home"
         android:label="@string/island_companion"
         android:name="com.jamieadkins.acnh.home.HomeFragment" />
@@ -28,6 +32,15 @@
             android:name="id"
             app:argType="string" />
 
+    </fragment>
+
+    <fragment
+        android:id="@+id/going_soon"
+        android:name="com.jamieadkins.acnh.home.going.GoingSoonFragment"
+        android:label="@string/going_away_soon">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="acnh://goingsoon" />
     </fragment>
 
 </navigation>

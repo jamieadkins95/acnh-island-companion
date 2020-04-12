@@ -10,6 +10,8 @@ import com.jamieadkins.acnh.fish.FishFragment
 import com.jamieadkins.acnh.fish.FishModule
 import com.jamieadkins.acnh.home.HomeFragment
 import com.jamieadkins.acnh.home.HomeModule
+import com.jamieadkins.acnh.home.going.GoingSoonFragment
+import com.jamieadkins.acnh.home.going.GoingSoonModule
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -27,5 +29,8 @@ abstract class FragmentProvider {
 
     @ContributesAndroidInjector(modules = [HomeModule::class, FishDataModule::class, BugsDataModule::class])
     abstract fun home(): HomeFragment
+
+    @ContributesAndroidInjector(modules = [GoingSoonModule::class, FishDataModule::class, BugsDataModule::class])
+    abstract fun goingSoon(): GoingSoonFragment
 
 }
