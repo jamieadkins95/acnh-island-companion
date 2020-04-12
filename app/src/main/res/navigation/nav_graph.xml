@@ -12,6 +12,10 @@
         android:id="@+id/to_going_soon"
         app:destination="@id/going_soon" />
 
+    <action
+        android:id="@+id/to_coming_soon"
+        app:destination="@id/coming_soon" />
+
     <fragment android:id="@+id/home"
         android:label="@string/island_companion"
         android:name="com.jamieadkins.acnh.home.HomeFragment" />
@@ -41,6 +45,15 @@
         <deepLink
             android:id="@+id/deepLink"
             app:uri="acnh://goingsoon" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coming_soon"
+        android:name="com.jamieadkins.acnh.home.coming.ComingSoonFragment"
+        android:label="@string/coming_soon">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="acnh://comingsoon" />
     </fragment>
 
 </navigation>

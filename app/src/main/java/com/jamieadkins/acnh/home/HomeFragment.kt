@@ -62,9 +62,12 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
         groupAdapter.setOnItemClickListener { item, _ ->
             when (item) {
                 is BugFishSummaryItem -> {
-                    when (item.titleText) {
-                        R.string.going_away_soon -> findNavController().navigate(NavGraphDirections.toGoingSoon())
+                    val directions = when (item.titleText) {
+                        R.string.going_away_soon -> NavGraphDirections.toGoingSoon()
+                        R.string.coming_soon -> NavGraphDirections.toComingSoon()
+                        else -> return@setOnItemClickListener
                     }
+                    findNavController().navigate(directions)
                 }
             }
         }
