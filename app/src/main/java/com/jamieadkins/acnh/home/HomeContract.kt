@@ -7,10 +7,10 @@ interface HomeContract {
     interface View {
         fun showLoadingIndicator()
         fun hideLoadingIndicator()
-        fun showCrittersAvailableNow(bugFishSummary: BugFishSummaryEntity)
-        fun showCrittersGoingSoon(goingSoon: BugFishSummaryEntity)
-        fun showCrittersComingSoon(comingSoon: BugFishSummaryEntity)
-        fun showCrittersNewThisMonth(newThisMonth: BugFishSummaryEntity)
+        fun showCrittersAvailableNow(bugFishSummary: BugFishSummaryEntity, rarestCritter: Any?)
+        fun showCrittersGoingSoon(goingSoon: BugFishSummaryEntity, rarestCritter: Any?)
+        fun showCrittersComingSoon(comingSoon: BugFishSummaryEntity, rarestCritter: Any?)
+        fun showCrittersNewThisMonth(newThisMonth: BugFishSummaryEntity, rarestCritter: Any?)
     }
 
     interface Presenter {
