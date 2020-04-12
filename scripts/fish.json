@@ -102,7 +102,7 @@
   {
     "name": "Dace",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png/revision/latest?cb=20200401003129",
-    "price": "240",
+    "price": "192",
     "location": "River",
     "size": "3",
     "timeRange": "4 PM - 9 AM",
@@ -640,7 +640,7 @@
   {
     "name": "Black bass",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png/revision/latest?cb=20200401003129",
-    "price": "400",
+    "price": "320",
     "location": "River",
     "size": "4",
     "timeRange": "All day",
@@ -764,8 +764,8 @@
   {
     "name": "Cherry salmon",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png/revision/latest?cb=20200401003129",
-    "price": "1000",
-    "location": "River (Clifftop)  Pond",
+    "price": "800",
+    "location": "River (Clifftop)",
     "size": "3",
     "timeRange": "4 PM - 9 AM",
     "startHour": 16,
@@ -1423,8 +1423,8 @@
     "price": "5000",
     "location": "Sea",
     "size": "3",
-    "timeRange": "6 PM - 4 AM",
-    "startHour": 18,
+    "timeRange": "9 PM - 4 AM",
+    "startHour": 21,
     "endHour": 4,
     "northernHemisphereMonths": [
       1,
@@ -2139,7 +2139,7 @@
     "name": "Coelacanth",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png/revision/latest?cb=20200401003129",
     "price": "15000",
-    "location": "Sea (Raining)",
+    "location": "Sea",
     "size": "6",
     "timeRange": "All day",
     "startHour": 0,
