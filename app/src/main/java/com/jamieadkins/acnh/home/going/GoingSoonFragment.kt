@@ -4,6 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupWithNavController
 import com.jamieadkins.acnh.CritterListDecoration
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.bugs.BugItem
@@ -31,6 +34,9 @@ class GoingSoonFragment : DaggerFragment(), GoingSoonContract.View {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val navController = findNavController()
+        val appBarConfiguration = AppBarConfiguration(navController.graph)
+        binding?.toolbar?.setupWithNavController(navController, appBarConfiguration)
         binding?.toolbar?.setTitle(R.string.going_away_soon)
         presenter.onAttach(this)
         groupAdapter.spanCount = resources.getInteger(R.integer.span)
