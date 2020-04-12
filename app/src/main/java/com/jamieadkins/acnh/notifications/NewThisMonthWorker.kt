@@ -26,10 +26,14 @@ class NewThisMonthWorker(private val appContext: Context, params: WorkerParamete
             .setGraph(R.navigation.nav_graph)
             .setDestination(R.id.new_this_month)
             .createPendingIntent()
+        val totalCreatures = newThisMonth.fish.size + newThisMonth.bugs.size
+        val totalUncaughtCreatures = newThisMonth.uncaughtFish.size + newThisMonth.uncaughtBugs.size
+        val text = appContext.resources.getQuantityString(R.plurals.new_this_month_notification, totalUncaughtCreatures, totalCreatures, totalUncaughtCreatures)
         val notification = NotificationCompat.Builder(appContext, "new-this-month")
             .setSmallIcon(R.drawable.ic_palm_tree)
             .setContentTitle(appContext.getString(R.string.new_this_month))
-            .setContentText(appContext.getString(R.string.new_this_month_notification, newThisMonth.fish.size + newThisMonth.bugs.size))
+            .setStyle(NotificationCompat.BigTextStyle().bigText(text))
+            .setContentText(text)
             .setColor(ContextCompat.getColor(appContext, R.color.primaryColor))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setContentIntent(pendingIntent)

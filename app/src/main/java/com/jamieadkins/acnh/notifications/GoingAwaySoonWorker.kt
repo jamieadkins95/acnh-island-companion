@@ -29,8 +29,10 @@ class GoingAwaySoonWorker(private val appContext: Context, params: WorkerParamet
             .setDestination(R.id.going_soon)
             .createPendingIntent()
 
-        val title = appContext.getString(R.string.going_away_soon_notification, goingSoon.fish.size + goingSoon.bugs.size)
-        val text = appContext.getString(R.string.going_away_soon_notification_description)
+        val totalCreatures = goingSoon.fish.size + goingSoon.bugs.size
+        val totalUncaughtCreatures = goingSoon.uncaughtFish.size + goingSoon.uncaughtBugs.size
+        val title = appContext.resources.getQuantityString(R.plurals.going_away_soon_notification, totalUncaughtCreatures, totalUncaughtCreatures)
+        val text = appContext.getString(R.string.going_away_soon_notification_description, totalCreatures)
         val notification = NotificationCompat.Builder(appContext, "going-soon")
             .setSmallIcon(R.drawable.ic_palm_tree)
             .setContentTitle(title)
