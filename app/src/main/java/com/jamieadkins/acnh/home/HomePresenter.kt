@@ -54,8 +54,8 @@ class HomePresenter @Inject constructor(
     }
 
     private fun findRarestCritter(fish: List<FishEntity>, bugs: List<BugEntity>): Any? {
-        val rarestFish = fish.maxBy { it.priceToInt() }
-        val rarestBug = bugs.maxBy { it.priceToInt() }
+        val rarestFish = fish.filter { it.caught.not() }.maxBy { it.priceToInt() }
+        val rarestBug = bugs.filter { it.caught.not() }.maxBy { it.priceToInt() }
         return rarestFish?.takeIf { (rarestFish.priceToInt()) >= (rarestBug?.priceToInt() ?: 0) } ?: rarestBug
     }
 
