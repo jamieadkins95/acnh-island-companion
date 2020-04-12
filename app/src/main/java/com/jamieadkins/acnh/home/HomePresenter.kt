@@ -19,7 +19,7 @@ class HomePresenter @Inject constructor(
     private val getCrittersComingSoonUseCase: GetCrittersComingSoonUseCase,
     private val getNewCrittersUseCase: GetNewCrittersUseCase,
     private val fishCaughtPresenter: FishCaughtPresenter
-) : HomeContract.Presenter, FishCaughtContract by fishCaughtPresenter  {
+) : HomeContract.Presenter, FishCaughtContract by fishCaughtPresenter {
 
     private var view: HomeContract.View? = null
     private val compositeDisposable = CompositeDisposable()

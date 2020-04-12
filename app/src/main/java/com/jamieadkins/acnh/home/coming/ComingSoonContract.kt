@@ -1,6 +1,7 @@
 package com.jamieadkins.acnh.home.coming
 
 import com.jamieadkins.acnh.domain.BugFishSummaryEntity
+import com.jamieadkins.acnh.fish.FishCaughtContract
 
 interface ComingSoonContract {
 
@@ -10,7 +11,7 @@ interface ComingSoonContract {
         fun showCrittersComingSoon(comingSoon: BugFishSummaryEntity)
     }
 
-    interface Presenter {
+    interface Presenter : FishCaughtContract {
         fun onAttach(newView: View)
         fun onDetach()
     }

@@ -6,8 +6,9 @@ import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 
 class FishPresenter @Inject constructor(
-    private val getFishUseCase: GetFishUseCase
-) : FishContract.Presenter {
+    private val getFishUseCase: GetFishUseCase,
+    private val fishCaughtPresenter: FishCaughtPresenter
+) : FishContract.Presenter, FishCaughtContract by fishCaughtPresenter {
 
     private var view: FishContract.View? = null
     private val compositeDisposable = CompositeDisposable()

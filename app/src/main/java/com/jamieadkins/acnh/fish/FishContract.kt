@@ -10,7 +10,7 @@ interface FishContract {
         fun showFish(fish: List<FishEntity>)
     }
 
-    interface Presenter {
+    interface Presenter : FishCaughtContract {
         fun onAttach(newView: View)
         fun onDetach()
     }

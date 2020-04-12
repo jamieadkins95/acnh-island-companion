@@ -1,6 +1,7 @@
 package com.jamieadkins.acnh.home.available
 
 import com.jamieadkins.acnh.domain.BugFishSummaryEntity
+import com.jamieadkins.acnh.fish.FishCaughtContract
 
 interface AvailableNowContract {
 
@@ -10,7 +11,7 @@ interface AvailableNowContract {
         fun showCrittersAvailableNow(bugFishSummary: BugFishSummaryEntity)
     }
 
-    interface Presenter {
+    interface Presenter : FishCaughtContract {
         fun onAttach(newView: View)
         fun onDetach()
     }
