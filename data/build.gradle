@@ -20,6 +20,10 @@ dependencies {
     implementation Libs.rxjava
 
     api 'com.google.firebase:firebase-firestore-ktx:21.4.1'
+    implementation Libs.room
+    kapt Libs.room_compiler
+    implementation Libs.room_ktx
+    implementation Libs.room_rx
 
     implementation project(':domain')
 

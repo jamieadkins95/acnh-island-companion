@@ -34,6 +34,7 @@ data class FishItem(
         location.text = fish.location
         image.load(fish.imageUrl)
         caught.text = if (fish.caught) resources.getString(R.string.caught) else resources.getString(R.string.uncaught)
+        caught.setOnCheckedChangeListener(null)
         caught.isChecked = fish.caught
         caught.setOnCheckedChangeListener { _, isChecked -> onCaughtToggled(fish) }
     }

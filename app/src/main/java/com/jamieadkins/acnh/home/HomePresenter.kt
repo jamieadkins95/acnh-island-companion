@@ -10,6 +10,7 @@ import com.jamieadkins.acnh.extensions.addToComposite
 import com.jamieadkins.acnh.fish.FishCaughtContract
 import com.jamieadkins.acnh.fish.FishCaughtPresenter
 import io.reactivex.disposables.CompositeDisposable
+import timber.log.Timber
 import javax.inject.Inject
 
 class HomePresenter @Inject constructor(
@@ -29,7 +30,9 @@ class HomePresenter @Inject constructor(
         getCrittersAvailableNowUseCase.getCrittersAvailableNow()
             .doOnSubscribe { view?.showLoadingIndicator() }
             .doOnNext { view?.hideLoadingIndicator() }
-            .subscribe { view?.showCrittersAvailableNow(it, findRarestCritter(it.fish, it.bugs)) }
+            .subscribe {
+                view?.showCrittersAvailableNow(it, findRarestCritter(it.fish, it.bugs))
+            }
             .addToComposite(compositeDisposable)
 
         getCrittersGoingSoonUseCase.getCrittersGoingSoon()

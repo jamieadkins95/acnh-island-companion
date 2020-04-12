@@ -12,6 +12,12 @@ object Libs {
     const val nav_component_ui = "androidx.navigation:navigation-ui-ktx:${Versions.nav_component}"
     const val work_manager = "androidx.work:work-runtime-ktx:${Versions.work_manager}"
 
+    // Room
+    const val room = "androidx.room:room-runtime:${Versions.room}"
+    const val room_compiler = "androidx.room:room-compiler:${Versions.room}"
+    const val room_ktx = "androidx.room:room-ktx:${Versions.room}"
+    const val room_rx = "androidx.room:room-rxjava2:${Versions.room}"
+
     //retrofit
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     const val retrofit_rxjava_adapter = "com.squareup.retrofit2:adapter-rxjava:${Versions.retrofit}"

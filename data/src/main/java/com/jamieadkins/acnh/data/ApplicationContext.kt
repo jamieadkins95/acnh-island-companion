@@ -1,4 +1,4 @@
-package com.jamieadkins.acnh.di
+package com.jamieadkins.acnh.data
 
 import javax.inject.Qualifier
 

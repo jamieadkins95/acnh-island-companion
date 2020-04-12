@@ -15,6 +15,7 @@ object Versions {
     const val material_design = "1.2.0-alpha02"
     const val nav_component = "2.2.1"
     const val work_manager = "2.3.4"
+    const val room = "2.2.5"
 
     const val retrofit = "2.4.0"
     const val okhttp = "3.8.0"
