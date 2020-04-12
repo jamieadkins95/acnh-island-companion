@@ -7,6 +7,7 @@
     <string name="fish_available_now">Fish Available Now</string>
     <string name="bugs_available_now">Bugs Available Now</string>
     <string name="currently_available">Currently Available</string>
+    <string name="available_now">Available to catch right now!</string>
     <string name="going_away_soon">Going Away Soon</string>
     <string name="going_away_soon_description">Get notified when creatures are about to go out of season.</string>
     <string name="going_away_soon_notification">%d creatures are going away soon!</string>
@@ -36,4 +37,9 @@
         <item>Nov</item>
         <item>Dec</item>
     </string-array>
+
+    <plurals name="more_uncaught">
+        <item quantity="one">And %d more critter that you have already caught!</item>
+        <item quantity="other">And %d more critters that you have already caught!</item>
+    </plurals>
 </resources>

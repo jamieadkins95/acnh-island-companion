@@ -18,12 +18,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAppearance="?textAppearanceHeadline6"
-            android:text="@string/currently_available"
+            android:text="@string/available_now"
             android:layout_marginTop="12dp"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/currentTime"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -46,10 +46,9 @@
             android:textAppearance="?textAppearanceHeadline4"
             tools:text="15"
             android:includeFontPadding="false"
-            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_marginStart="24dp"
             app:layout_constraintTop_toBottomOf="@id/title"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/bugsCount"/>
+            app:layout_constraintStart_toStartOf="parent"/>
 
         <TextView
             android:id="@+id/bugsCount"
@@ -58,31 +57,43 @@
             android:textAppearance="?textAppearanceHeadline4"
             tools:text="15"
             android:includeFontPadding="false"
-            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_marginStart="24dp"
             app:layout_constraintTop_toBottomOf="@id/title"
-            app:layout_constraintStart_toEndOf="@id/fishCount"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/fishCount" />
 
         <TextView
+            android:id="@+id/fishLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fish"
             android:textAppearance="?textAppearanceBody2"
-            android:layout_marginBottom="12dp"
+            android:translationY="-12sp"
             app:layout_constraintTop_toBottomOf="@id/fishCount"
             app:layout_constraintStart_toStartOf="@id/fishCount"
-            app:layout_constraintEnd_toEndOf="@id/fishCount"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintEnd_toEndOf="@id/fishCount" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bugs"
             android:textAppearance="?textAppearanceBody2"
-            android:layout_marginBottom="12dp"
+            android:translationY="-12sp"
             app:layout_constraintTop_toBottomOf="@id/bugsCount"
             app:layout_constraintStart_toStartOf="@id/bugsCount"
-            app:layout_constraintEnd_toEndOf="@id/bugsCount"
+            app:layout_constraintEnd_toEndOf="@id/bugsCount" />
+
+        <TextView
+            android:id="@+id/more"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="And 10 more that you have already caught!"
+            android:textAppearance="?textAppearanceBody2"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintTop_toBottomOf="@id/fishLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
 

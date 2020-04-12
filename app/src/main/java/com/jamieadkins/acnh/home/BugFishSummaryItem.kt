@@ -13,7 +13,7 @@ data class BugFishSummaryItem(
     val bugFishSummary: BugFishSummaryEntity,
     @StringRes val titleText: Int,
     val showTime: Boolean
-) : Item(R.string.currently_available.toLong()) {
+) : Item(titleText.toLong()) {
 
     override fun getLayout(): Int = R.layout.view_currently_available
 
@@ -21,9 +21,10 @@ data class BugFishSummaryItem(
 
     private fun View.bind() {
         title.setText(titleText)
-        fishCount.text = bugFishSummary.fish.size.toString()
-        bugsCount.text = bugFishSummary.bugs.size.toString()
+        fishCount.text = String.format("%02d", bugFishSummary.fish.size)
+        bugsCount.text = String.format("%02d", bugFishSummary.bugs.size)
         currentTime.text = bugFishSummary.timeEvaluatedAt.format(DateTimeFormatter.ofPattern("hh:mm a"))
         currentTime.visibility = if (showTime) View.VISIBLE else View.GONE
+        more.text = resources.getQuantityString(R.plurals.more_uncaught, bugFishSummary.alreadyCaught, bugFishSummary.alreadyCaught)
     }
 }

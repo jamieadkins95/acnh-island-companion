@@ -14,6 +14,7 @@
         <item name="android:textColorPrimary">@color/primaryTextColor</item>
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.IslandCompanionTheme.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.IslandCompanionTheme.MediumComponent</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.IslandCompanionTheme.LargeComponent</item>

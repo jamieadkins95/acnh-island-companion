@@ -66,7 +66,7 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
                         R.string.going_away_soon -> NavGraphDirections.toGoingSoon()
                         R.string.coming_soon -> NavGraphDirections.toComingSoon()
                         R.string.new_this_month -> NavGraphDirections.toNewThisMonth()
-                        R.string.currently_available -> NavGraphDirections.toAvailableNow()
+                        R.string.available_now -> NavGraphDirections.toAvailableNow()
                         else -> return@setOnItemClickListener
                     }
                     findNavController().navigate(directions)
@@ -90,7 +90,7 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
     }
 
     override fun showCrittersAvailableNow(bugFishSummary: BugFishSummaryEntity, rarestCritter: Any?) {
-        val summary = listOf(BugFishSummaryItem(bugFishSummary, R.string.currently_available, true))
+        val summary = listOf(BugFishSummaryItem(bugFishSummary, R.string.available_now, true))
         currentlyAvailableSection.update(summary + mapCritterToItem(rarestCritter))
     }
 

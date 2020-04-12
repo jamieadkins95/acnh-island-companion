@@ -29,7 +29,8 @@ class GetNewCrittersUseCase @Inject constructor(
                 val bugsGoingSoon = allBugs.filter {
                     bug -> critterAvailabilityChecker.isCritterNewThisMonth(currentMonth, bug.months)
                 }
-                BugFishSummaryEntity(fishGoingSoon, bugsGoingSoon, now)
+                val alreadycaught = 0
+                BugFishSummaryEntity(fishGoingSoon, bugsGoingSoon, alreadycaught, now)
             }
         )
             .subscribeOn(schedulerProvider.io())
