@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
+import androidx.navigation.NavDeepLinkBuilder
 import androidx.work.WorkerParameters
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.domain.GetNewCrittersUseCase
@@ -21,13 +22,17 @@ class NewThisMonthWorker(private val appContext: Context, params: WorkerParamete
 
         val newThisMonth = getNewCrittersUseCase.getCrittersNewThisMonth().blockingFirst()
         createNotificationChannel(appContext, "new-this-month", R.string.new_this_month, R.string.new_this_month_description)
+        val pendingIntent = NavDeepLinkBuilder(appContext)
+            .setGraph(R.navigation.nav_graph)
+            .setDestination(R.id.new_this_month)
+            .createPendingIntent()
         val notification = NotificationCompat.Builder(appContext, "new-this-month")
             .setSmallIcon(R.drawable.ic_palm_tree)
             .setContentTitle(appContext.getString(R.string.new_this_month))
             .setContentText(appContext.getString(R.string.new_this_month_notification, newThisMonth.fish.size + newThisMonth.bugs.size))
             .setColor(ContextCompat.getColor(appContext, R.color.primaryColor))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-            .setContentIntent(getAppIntent(appContext))
+            .setContentIntent(pendingIntent)
             .setAutoCancel(true)
 
         NotificationManagerCompat.from(appContext).notify(46351, notification.build())

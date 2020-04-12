@@ -65,6 +65,7 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
                     val directions = when (item.titleText) {
                         R.string.going_away_soon -> NavGraphDirections.toGoingSoon()
                         R.string.coming_soon -> NavGraphDirections.toComingSoon()
+                        R.string.new_this_month -> NavGraphDirections.toNewThisMonth()
                         else -> return@setOnItemClickListener
                     }
                     findNavController().navigate(directions)
