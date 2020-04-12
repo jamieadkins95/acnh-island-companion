@@ -7,6 +7,8 @@ import com.jamieadkins.acnh.domain.GetNewCrittersUseCase
 import com.jamieadkins.acnh.domain.bugs.BugEntity
 import com.jamieadkins.acnh.domain.fish.FishEntity
 import com.jamieadkins.acnh.extensions.addToComposite
+import com.jamieadkins.acnh.fish.FishCaughtContract
+import com.jamieadkins.acnh.fish.FishCaughtPresenter
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 
@@ -14,8 +16,9 @@ class HomePresenter @Inject constructor(
     private val getCrittersAvailableNowUseCase: GetCrittersAvailableNowUseCase,
     private val getCrittersGoingSoonUseCase: GetCrittersGoingSoonUseCase,
     private val getCrittersComingSoonUseCase: GetCrittersComingSoonUseCase,
-    private val getNewCrittersUseCase: GetNewCrittersUseCase
-) : HomeContract.Presenter {
+    private val getNewCrittersUseCase: GetNewCrittersUseCase,
+    private val fishCaughtPresenter: FishCaughtPresenter
+) : HomeContract.Presenter, FishCaughtContract by fishCaughtPresenter  {
 
     private var view: HomeContract.View? = null
     private val compositeDisposable = CompositeDisposable()

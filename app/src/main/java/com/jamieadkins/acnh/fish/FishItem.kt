@@ -10,7 +10,10 @@ import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
 import kotlinx.android.synthetic.main.view_fish.view.*
 
-data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
+data class FishItem(
+    val fish: FishEntity,
+    val onCaughtToggled: (FishEntity) -> Unit
+) : Item(fish.id.hashCode().toLong()) {
 
     override fun getLayout(): Int = R.layout.view_fish
 
@@ -30,5 +33,8 @@ data class FishItem(val fish: FishEntity) : Item(fish.id.hashCode().toLong()) {
         }
         location.text = fish.location
         image.load(fish.imageUrl)
+        caught.text = if (fish.caught) resources.getString(R.string.caught) else resources.getString(R.string.uncaught)
+        caught.isChecked = fish.caught
+        caught.setOnCheckedChangeListener { _, isChecked -> onCaughtToggled(fish) }
     }
 }

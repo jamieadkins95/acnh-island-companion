@@ -51,6 +51,6 @@ class FishFragment : DaggerFragment(), FishContract.View {
     }
 
     override fun showFish(fish: List<FishEntity>) {
-        groupAdapter.update(fish.map(::FishItem))
+        groupAdapter.update(fish.map { FishItem(it) {} })
     }
 }

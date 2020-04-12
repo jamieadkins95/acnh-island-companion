@@ -109,14 +109,10 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
         newThisMonthSection.update(summary + mapCritterToItem(rarestCritter))
     }
 
-    private fun mapCrittersToItems(critters: BugFishSummaryEntity): List<Item> {
-        return critters.fish.map(::FishItem) + critters.bugs.map(::BugItem)
-    }
-
     private fun mapCritterToItem(critter: Any?): List<Item> {
         return when (critter) {
             is BugEntity -> listOf(BugItem(critter))
-            is FishEntity -> listOf(FishItem(critter))
+            is FishEntity -> listOf(FishItem(critter, presenter::onFishCaughtToggled))
             else -> emptyList()
         }
     }

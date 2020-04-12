@@ -65,6 +65,6 @@ class NewThisMonthFragment : DaggerFragment(), NewThisMonthContract.View {
     }
 
     private fun mapCrittersToItems(critters: BugFishSummaryEntity): List<Item> {
-        return critters.fish.map(::FishItem) + critters.bugs.map(::BugItem)
+        return critters.fish.map { FishItem(it) {} } + critters.bugs.map(::BugItem)
     }
 }
