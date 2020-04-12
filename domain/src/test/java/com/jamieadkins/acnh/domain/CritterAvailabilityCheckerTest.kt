@@ -3,10 +3,54 @@ package com.jamieadkins.acnh.domain
 import org.junit.Test
 
 import org.junit.Assert.*
+import org.threeten.bp.DateTimeUtils
+import org.threeten.bp.ZonedDateTime
 
 class CritterAvailabilityCheckerTest {
 
     private val critterAvailabilityChecker = CritterAvailabilityChecker()
+
+    @Test
+    fun `Critter available this month and all day, is available now`() {
+        val now = ZonedDateTime.parse("2020-01-23T10:15:30Z")
+        val result = critterAvailabilityChecker.isCritterAvailableNow(now, 0, 24, listOf(1, 2))
+        assertEquals(true, result)
+    }
+
+    @Test
+    fun `Critter not available this month and all day, is not available now`() {
+        val now = ZonedDateTime.parse("2020-03-23T10:15:30Z")
+        val result = critterAvailabilityChecker.isCritterAvailableNow(now, 0, 24, listOf(1, 2))
+        assertEquals(false, result)
+    }
+
+    @Test
+    fun `Critter available this month and in morning, is available now`() {
+        val now = ZonedDateTime.parse("2020-01-23T10:15:30Z")
+        val result = critterAvailabilityChecker.isCritterAvailableNow(now, 6, 12, listOf(1, 2))
+        assertEquals(true, result)
+    }
+
+    @Test
+    fun `Critter available this month and in afternoon, is not available now`() {
+        val now = ZonedDateTime.parse("2020-01-23T10:15:30Z")
+        val result = critterAvailabilityChecker.isCritterAvailableNow(now, 12, 20, listOf(1, 2))
+        assertEquals(false, result)
+    }
+
+    @Test
+    fun `Critter available this month and overnight, is not available now`() {
+        val now = ZonedDateTime.parse("2020-01-23T10:15:30Z")
+        val result = critterAvailabilityChecker.isCritterAvailableNow(now, 21, 4, listOf(1, 2))
+        assertEquals(false, result)
+    }
+
+    @Test
+    fun `Critter available this month and overnight, is available now`() {
+        val now = ZonedDateTime.parse("2020-01-23T23:15:30Z")
+        val result = critterAvailabilityChecker.isCritterAvailableNow(now, 21, 4, listOf(1, 2))
+        assertEquals(true, result)
+    }
 
     @Test
     fun `Critter available this month and next, not going away soon`() {

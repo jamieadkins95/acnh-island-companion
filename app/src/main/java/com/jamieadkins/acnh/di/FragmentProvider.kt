@@ -10,6 +10,8 @@ import com.jamieadkins.acnh.fish.FishFragment
 import com.jamieadkins.acnh.fish.FishModule
 import com.jamieadkins.acnh.home.HomeFragment
 import com.jamieadkins.acnh.home.HomeModule
+import com.jamieadkins.acnh.home.available.AvailableNowFragment
+import com.jamieadkins.acnh.home.available.AvailableNowModule
 import com.jamieadkins.acnh.home.coming.ComingSoonFragment
 import com.jamieadkins.acnh.home.coming.ComingSoonModule
 import com.jamieadkins.acnh.home.going.GoingSoonFragment
@@ -42,5 +44,8 @@ abstract class FragmentProvider {
 
     @ContributesAndroidInjector(modules = [NewThisMonthModule::class, FishDataModule::class, BugsDataModule::class])
     abstract fun newThisMonth(): NewThisMonthFragment
+
+    @ContributesAndroidInjector(modules = [AvailableNowModule::class, FishDataModule::class, BugsDataModule::class])
+    abstract fun availableNow(): AvailableNowFragment
 
 }

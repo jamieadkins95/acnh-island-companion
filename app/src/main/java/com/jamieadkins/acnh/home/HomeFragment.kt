@@ -66,6 +66,7 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
                         R.string.going_away_soon -> NavGraphDirections.toGoingSoon()
                         R.string.coming_soon -> NavGraphDirections.toComingSoon()
                         R.string.new_this_month -> NavGraphDirections.toNewThisMonth()
+                        R.string.currently_available -> NavGraphDirections.toAvailableNow()
                         else -> return@setOnItemClickListener
                     }
                     findNavController().navigate(directions)

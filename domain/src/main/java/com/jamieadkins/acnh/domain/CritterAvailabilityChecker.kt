@@ -6,10 +6,11 @@ import javax.inject.Inject
 class CritterAvailabilityChecker @Inject constructor() {
 
     fun isCritterAvailableNow(now: ZonedDateTime, startHour: Int, endHour: Int, months: List<Int>): Boolean {
+        val currentHour = now.hour
         val correctTime = if (startHour > endHour) {
-            now.hour < startHour || now.hour > endHour // Night fish
+            currentHour < endHour || currentHour > startHour // Night fish
         } else {
-            now.hour > startHour && now.hour < endHour // Day fish
+            currentHour > startHour && currentHour < endHour // Day fish
         }
         val correctMonth = months.contains(now.monthValue)
         return correctTime && correctMonth
