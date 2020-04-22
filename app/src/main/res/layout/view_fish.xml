@@ -61,6 +61,7 @@
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/price"
+                style="@style/IslandCompanionTheme.Chip.Price"
                 app:closeIconEnabled="false"
                 app:chipIcon="@drawable/ic_price"
                 android:layout_width="wrap_content"
@@ -69,6 +70,7 @@
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/time"
+                style="@style/IslandCompanionTheme.Chip.Time"
                 app:closeIconEnabled="false"
                 app:chipIcon="@drawable/ic_time"
                 android:layout_width="wrap_content"
@@ -77,6 +79,7 @@
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/months"
+                style="@style/IslandCompanionTheme.Chip.Date"
                 app:closeIconEnabled="false"
                 app:chipIcon="@drawable/ic_calendar"
                 android:layout_width="wrap_content"
@@ -85,6 +88,7 @@
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/location"
+                style="@style/IslandCompanionTheme.Chip.Location"
                 app:closeIconEnabled="false"
                 app:chipIcon="@drawable/ic_location"
                 android:layout_width="wrap_content"

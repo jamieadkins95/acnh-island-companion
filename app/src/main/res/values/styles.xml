@@ -18,7 +18,6 @@
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.IslandCompanionTheme.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.IslandCompanionTheme.MediumComponent</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.IslandCompanionTheme.LargeComponent</item>
-        <item name="chipStyle">@style/IslandCompanionTheme.Chip.Entry</item>
     </style>
 
     <style name="ShapeAppearance.IslandCompanionTheme.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
@@ -39,11 +38,28 @@
     <style name="IslandCompanionTheme.Chip.Entry" parent="Widget.MaterialComponents.Chip.Entry">
         <item name="android:textColor">@color/choice_chip_text_color</item>
         <item name="chipBackgroundColor">@color/choice_chip_background_color</item>
+        <item name="chipCornerRadius">6dp</item>
         <item name="android:checkable">false</item>
         <item name="closeIconEnabled">false</item>
         <item name="android:clickable">false</item>
         <item name="android:focusable">false</item>
         <item name="android:textAppearance">@style/TextAppearance.IslandCompanionTheme.Chip</item>
+    </style>
+
+    <style name="IslandCompanionTheme.Chip.Price" parent="IslandCompanionTheme.Chip.Entry">
+        <item name="chipBackgroundColor">@color/cash</item>
+    </style>
+
+    <style name="IslandCompanionTheme.Chip.Time" parent="IslandCompanionTheme.Chip.Entry">
+        <item name="chipBackgroundColor">@color/time</item>
+    </style>
+
+    <style name="IslandCompanionTheme.Chip.Date" parent="IslandCompanionTheme.Chip.Entry">
+        <item name="chipBackgroundColor">@color/date</item>
+    </style>
+
+    <style name="IslandCompanionTheme.Chip.Location" parent="IslandCompanionTheme.Chip.Entry">
+        <item name="chipBackgroundColor">@color/location</item>
     </style>
 
     <style name="TextAppearance.IslandCompanionTheme.Chip" parent="TextAppearance.MaterialComponents.Chip">
