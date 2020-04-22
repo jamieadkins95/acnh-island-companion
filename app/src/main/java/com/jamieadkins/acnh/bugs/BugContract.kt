@@ -10,7 +10,7 @@ interface BugContract {
         fun showBugs(bugs: List<BugEntity>)
     }
 
-    interface Presenter {
+    interface Presenter : BugsCaughtContract {
         fun onAttach(newView: View)
         fun onDetach()
     }

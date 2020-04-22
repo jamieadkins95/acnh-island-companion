@@ -65,6 +65,6 @@ class ComingSoonFragment : DaggerFragment(), ComingSoonContract.View {
     }
 
     private fun mapCrittersToItems(critters: BugFishSummaryEntity): List<Item> {
-        return critters.fish.map { FishItem(it, presenter::onFishCaughtToggled) } + critters.bugs.map(::BugItem)
+        return critters.fish.map { FishItem(it, presenter::onFishCaughtToggled) } + critters.bugs.map { BugItem(it, presenter::onBugCaughtToggled) }
     }
 }

@@ -1,14 +1,14 @@
 package com.jamieadkins.acnh.bugs
 
 import com.jamieadkins.acnh.domain.bugs.GetBugsUseCase
-import com.jamieadkins.acnh.domain.fish.GetFishUseCase
 import com.jamieadkins.acnh.extensions.addToComposite
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 
 class BugsPresenter @Inject constructor(
-    private val getBugsUseCase: GetBugsUseCase
-) : BugContract.Presenter {
+    private val getBugsUseCase: GetBugsUseCase,
+    private val bugsCaughtPresenter: BugCaughtPresenter
+) : BugContract.Presenter, BugsCaughtContract by bugsCaughtPresenter {
 
     var view: BugContract.View? = null
     private val compositeDisposable = CompositeDisposable()

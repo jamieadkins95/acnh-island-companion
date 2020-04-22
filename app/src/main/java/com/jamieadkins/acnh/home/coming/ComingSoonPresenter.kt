@@ -1,5 +1,7 @@
 package com.jamieadkins.acnh.home.coming
 
+import com.jamieadkins.acnh.bugs.BugCaughtPresenter
+import com.jamieadkins.acnh.bugs.BugsCaughtContract
 import com.jamieadkins.acnh.domain.GetCrittersComingSoonUseCase
 import com.jamieadkins.acnh.extensions.addToComposite
 import com.jamieadkins.acnh.fish.FishCaughtContract
@@ -9,8 +11,9 @@ import javax.inject.Inject
 
 class ComingSoonPresenter @Inject constructor(
     private val getCrittersComingSoonUseCase: GetCrittersComingSoonUseCase,
-    private val fishCaughtPresenter: FishCaughtPresenter
-) : ComingSoonContract.Presenter, FishCaughtContract by fishCaughtPresenter {
+    private val fishCaughtPresenter: FishCaughtPresenter,
+    private val bugCaughtPresenter: BugCaughtPresenter
+) : ComingSoonContract.Presenter, FishCaughtContract by fishCaughtPresenter, BugsCaughtContract by bugCaughtPresenter {
 
     private var view: ComingSoonContract.View? = null
     private val compositeDisposable = CompositeDisposable()

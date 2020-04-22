@@ -7,4 +7,6 @@ interface BugRepository {
     fun getBugs(): Observable<List<BugEntity>>
 
     fun getBug(id: String): Observable<BugEntity>
+
+    fun toggleBugCaught(bugId: String)
 }

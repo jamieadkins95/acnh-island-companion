@@ -111,7 +111,7 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
 
     private fun mapCritterToItem(critter: Any?): List<Item> {
         return when (critter) {
-            is BugEntity -> listOf(BugItem(critter))
+            is BugEntity -> listOf(BugItem(critter, presenter::onBugCaughtToggled))
             is FishEntity -> listOf(FishItem(critter, presenter::onFishCaughtToggled))
             else -> emptyList()
         }

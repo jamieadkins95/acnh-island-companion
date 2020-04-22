@@ -65,6 +65,6 @@ class AvailableNowFragment : DaggerFragment(), AvailableNowContract.View {
     }
 
     private fun mapCrittersToItems(critters: BugFishSummaryEntity): List<Item> {
-        return critters.fish.map { FishItem(it, presenter::onFishCaughtToggled) } + critters.bugs.map(::BugItem)
+        return critters.fish.map { FishItem(it, presenter::onFishCaughtToggled) } + critters.bugs.map { BugItem(it, presenter::onBugCaughtToggled) }
     }
 }

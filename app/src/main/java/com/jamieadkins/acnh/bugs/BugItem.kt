@@ -9,15 +9,10 @@ import com.jamieadkins.acnh.extensions.isConsecutive
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
 import kotlinx.android.synthetic.main.view_bug.view.*
-import kotlinx.android.synthetic.main.view_bug.view.image
-import kotlinx.android.synthetic.main.view_bug.view.location
-import kotlinx.android.synthetic.main.view_bug.view.months
-import kotlinx.android.synthetic.main.view_bug.view.name
-import kotlinx.android.synthetic.main.view_bug.view.price
-import kotlinx.android.synthetic.main.view_bug.view.time
-import kotlinx.android.synthetic.main.view_fish.view.*
-
-data class BugItem(val bug: BugEntity) : Item(bug.id.hashCode().toLong()) {
+data class BugItem(
+    val bug: BugEntity,
+    val onCaughtToggled: (BugEntity) -> Unit
+) : Item(bug.id.hashCode().toLong()) {
 
     override fun getLayout(): Int = R.layout.view_bug
 
@@ -37,5 +32,9 @@ data class BugItem(val bug: BugEntity) : Item(bug.id.hashCode().toLong()) {
         }
         location.text = bug.location
         image.load(bug.imageUrl)
+        caught.text = if (bug.caught) resources.getString(R.string.caught) else resources.getString(R.string.uncaught)
+        caught.setOnCheckedChangeListener(null)
+        caught.isChecked = bug.caught
+        caught.setOnCheckedChangeListener { _, isChecked -> onCaughtToggled(bug) }
     }
 }

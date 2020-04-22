@@ -16,6 +16,9 @@ interface CaughtCritterDao {
     @Query("SELECT caught FROM caught WHERE id=:id ")
     fun isCaught(id: String): Maybe<Boolean>
 
+    @Query("SELECT caught FROM caught WHERE id=:id ")
+    fun observerCaught(id: String): Observable<Boolean>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(caught: CaughtCritter)
 }

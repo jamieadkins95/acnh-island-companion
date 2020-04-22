@@ -1,5 +1,6 @@
 package com.jamieadkins.acnh.home
 
+import com.jamieadkins.acnh.bugs.BugsCaughtContract
 import com.jamieadkins.acnh.domain.BugFishSummaryEntity
 import com.jamieadkins.acnh.fish.FishCaughtContract
 
@@ -14,7 +15,7 @@ interface HomeContract {
         fun showCrittersNewThisMonth(newThisMonth: BugFishSummaryEntity, rarestCritter: Any?)
     }
 
-    interface Presenter : FishCaughtContract {
+    interface Presenter : FishCaughtContract, BugsCaughtContract {
         fun onAttach(newView: View)
         fun onDetach()
     }

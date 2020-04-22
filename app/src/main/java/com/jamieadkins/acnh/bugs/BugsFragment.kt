@@ -11,6 +11,7 @@ import com.jamieadkins.acnh.NavGraphDirections
 import com.jamieadkins.acnh.R
 import com.jamieadkins.acnh.databinding.FragmentBugBinding
 import com.jamieadkins.acnh.domain.bugs.BugEntity
+import com.jamieadkins.acnh.fish.FishItem
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import dagger.android.support.DaggerFragment
@@ -62,6 +63,6 @@ class BugsFragment : DaggerFragment(), BugContract.View {
     }
 
     override fun showBugs(bugs: List<BugEntity>) {
-        groupAdapter.update(bugs.map(::BugItem))
+        groupAdapter.update(bugs.map { BugItem(it, presenter::onBugCaughtToggled) })
     }
 }

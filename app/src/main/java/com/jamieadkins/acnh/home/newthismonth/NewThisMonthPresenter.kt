@@ -1,5 +1,7 @@
 package com.jamieadkins.acnh.home.newthismonth
 
+import com.jamieadkins.acnh.bugs.BugCaughtPresenter
+import com.jamieadkins.acnh.bugs.BugsCaughtContract
 import com.jamieadkins.acnh.domain.GetNewCrittersUseCase
 import com.jamieadkins.acnh.extensions.addToComposite
 import com.jamieadkins.acnh.fish.FishCaughtContract
@@ -9,8 +11,9 @@ import javax.inject.Inject
 
 class NewThisMonthPresenter @Inject constructor(
     private val getNewCrittersUseCase: GetNewCrittersUseCase,
-    private val fishCaughtPresenter: FishCaughtPresenter
-) : NewThisMonthContract.Presenter, FishCaughtContract by fishCaughtPresenter {
+    private val fishCaughtPresenter: FishCaughtPresenter,
+    private val bugCaughtPresenter: BugCaughtPresenter
+) : NewThisMonthContract.Presenter, FishCaughtContract by fishCaughtPresenter, BugsCaughtContract by bugCaughtPresenter {
 
     private var view: NewThisMonthContract.View? = null
     private val compositeDisposable = CompositeDisposable()
