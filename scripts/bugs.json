@@ -1755,7 +1755,7 @@
     "name": "Snail",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b1/NH-Icon-snail.png/revision/latest?cb=20200401005429",
     "price": "250",
-    "location": "On Rocks (Rain)",
+    "location": "On Rocks and Bushes (Rain)",
     "timeRange": "All day",
     "startHour": 0,
     "endHour": 24,
@@ -1857,7 +1857,7 @@
   {
     "name": "Spider",
     "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/NH-Icon-spider.png/revision/latest?cb=20200401005429",
-    "price": "480",
+    "price": "600",
     "location": "Shaking Trees",
     "timeRange": "7 PM - 8 AM",
     "startHour": 19,
