@@ -9,31 +9,32 @@ import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.QuerySnapshot
 import com.jamieadkins.acnh.data.database.CaughtCritter
 import com.jamieadkins.acnh.data.database.CaughtCritterDao
-import com.jamieadkins.acnh.data.fish.FirebaseFish
+import com.jamieadkins.acnh.domain.HemisphereEntity
+import com.jamieadkins.acnh.domain.HemisphereRepository
 import com.jamieadkins.acnh.domain.bugs.BugEntity
 import com.jamieadkins.acnh.domain.bugs.BugRepository
-import com.jamieadkins.acnh.domain.fish.FishEntity
-import com.jamieadkins.acnh.domain.fish.FishRepository
 import io.reactivex.Observable
-import io.reactivex.functions.BiFunction
+import io.reactivex.functions.Function3
 import io.reactivex.schedulers.Schedulers
 import timber.log.Timber
 import javax.inject.Inject
 
 class BugRepositoryImpl @Inject constructor(
     private val firestore: FirebaseFirestore,
-    private val caughtCritterDao: CaughtCritterDao
+    private val caughtCritterDao: CaughtCritterDao,
+    private val hemisphereRepository: HemisphereRepository
 ) : BugRepository {
 
     override fun getBugs(): Observable<List<BugEntity>> {
         return Observable.combineLatest(
             getFirebaseBugs(),
             caughtCritterDao.getAll().map { all -> all.filter { bugs -> bugs.caught }.map { it.id }.toSet() }.distinctUntilChanged(),
-            BiFunction { allBugs: List<Pair<String?, FirebaseBug?>>, caught: Set<String> ->
+            hemisphereRepository.observeHemisphere(),
+            Function3 { allBugs: List<Pair<String?, FirebaseBug?>>, caught: Set<String>, hemisphere: HemisphereEntity ->
                 allBugs.mapNotNull { bug ->
                     val id = bug.first
                     val result = bug.second
-                    mapToBugEntity(id, result, caught.contains(id))
+                    mapToBugEntity(id, result, caught.contains(id), hemisphere)
                 }
             }
         )
@@ -60,7 +61,8 @@ class BugRepositoryImpl @Inject constructor(
         return Observable.combineLatest(
             getBug,
             caughtCritterDao.observerCaught(id).startWith(false),
-            BiFunction { bug: FirebaseBug, caught: Boolean -> mapToBugEntity(id, bug, caught)!! }
+            hemisphereRepository.observeHemisphere(),
+            Function3 { bug: FirebaseBug, caught: Boolean, hemisphere: HemisphereEntity -> mapToBugEntity(id, bug, caught, hemisphere)!! }
         )
     }
 
@@ -95,8 +97,8 @@ class BugRepositoryImpl @Inject constructor(
         }
     }
 
-    private fun mapToBugEntity(id: String?, firebaseBug: FirebaseBug?, caught: Boolean): BugEntity? {
-        val months = firebaseBug?.northernHemisphereMonths ?: emptyList()
+    private fun mapToBugEntity(id: String?, firebaseBug: FirebaseBug?, caught: Boolean, hemisphere: HemisphereEntity): BugEntity? {
+        val months = if (hemisphere == HemisphereEntity.Northern) firebaseBug?.northernHemisphereMonths else firebaseBug?.southernHemisphereMonths
         return BugEntity(
             id ?: return null,
             firebaseBug?.name ?: "",
@@ -106,7 +108,7 @@ class BugRepositoryImpl @Inject constructor(
             firebaseBug?.startHour ?: 0,
             firebaseBug?.endHour ?: 24,
             firebaseBug?.timeRange ?: "All Day",
-            months,
+            months ?: emptyList(),
             caught
         )
     }

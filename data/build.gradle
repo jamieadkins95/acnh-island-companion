@@ -19,7 +19,9 @@ dependencies {
     implementation Libs.timber
     implementation Libs.rxjava
 
-    api 'com.google.firebase:firebase-firestore-ktx:21.4.1'
+    api 'com.google.firebase:firebase-firestore-ktx:21.4.3'
+    implementation "androidx.preference:preference-ktx:1.1.1"
+    implementation 'com.f2prateek.rx.preferences2:rx-preferences:2.0.0'
     implementation Libs.room
     kapt Libs.room_compiler
     implementation Libs.room_ktx
