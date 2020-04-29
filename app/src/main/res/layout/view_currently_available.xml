@@ -3,6 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:theme="@style/ThemeOverlay.IslandCompanionTheme.SummaryCard"
+    app:cardBackgroundColor="@color/green"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:layout_width="match_parent"
@@ -12,6 +15,25 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.35" />
+
+        <com.jamieadkins.acnh.home.CropImageView
+            android:id="@+id/decoration"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/bg_leaf"
+            android:scaleType="centerCrop"
+            android:importantForAccessibility="no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guide_bg" />
 
         <TextView
             android:id="@+id/title"
@@ -93,8 +115,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

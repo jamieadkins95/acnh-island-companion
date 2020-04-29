@@ -90,22 +90,22 @@ class HomeFragment : DaggerFragment(), HomeContract.View {
     }
 
     override fun showCrittersAvailableNow(bugFishSummary: BugFishSummaryEntity, rarestCritter: Any?) {
-        val summary = listOf(BugFishSummaryItem(bugFishSummary, R.string.available_now, true))
+        val summary = listOf(BugFishSummaryItem(bugFishSummary, R.string.available_now, true, R.color.green, R.drawable.bg_net))
         currentlyAvailableSection.update(summary + mapCritterToItem(rarestCritter))
     }
 
     override fun showCrittersGoingSoon(goingSoon: BugFishSummaryEntity, rarestCritter: Any?) {
-        val summary = listOf(BugFishSummaryItem(goingSoon, R.string.going_away_soon, false))
+        val summary = listOf(BugFishSummaryItem(goingSoon, R.string.going_away_soon, false, R.color.purple, R.drawable.bg_leaf))
         goingSoonSection.update(summary + mapCritterToItem(rarestCritter))
     }
 
     override fun showCrittersComingSoon(comingSoon: BugFishSummaryEntity, rarestCritter: Any?) {
-        val summary = listOf(BugFishSummaryItem(comingSoon, R.string.coming_soon, false))
+        val summary = listOf(BugFishSummaryItem(comingSoon, R.string.coming_soon, false, R.color.red, R.drawable.bg_leaf))
         comingSoonSection.update(summary + mapCritterToItem(rarestCritter))
     }
 
     override fun showCrittersNewThisMonth(newThisMonth: BugFishSummaryEntity, rarestCritter: Any?) {
-        val summary = listOf(BugFishSummaryItem(newThisMonth, R.string.new_this_month, false))
+        val summary = listOf(BugFishSummaryItem(newThisMonth, R.string.new_this_month, false, R.color.blue, R.drawable.bg_leaf))
         newThisMonthSection.update(summary + mapCritterToItem(rarestCritter))
     }
 

@@ -16,4 +16,10 @@
   <color name="cash">#FFD051</color>
   <color name="location">#B1B4FF</color>
   <color name="date">#FFB084</color>
+
+  <color name="beige">#f8EDDC</color>
+  <color name="green">#4ba487</color>
+  <color name="purple">#916efc</color>
+  <color name="red">#fd807b</color>
+  <color name="blue">#7896FE</color>
 </resources>

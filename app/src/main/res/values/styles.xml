@@ -66,4 +66,8 @@
         <item name="android:fontFamily">@font/baloo_da</item>
     </style>
 
+    <style name="ThemeOverlay.IslandCompanionTheme.SummaryCard" parent="">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>
